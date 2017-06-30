@@ -1,0 +1,604 @@
+<!doctype html>
+<html>
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <title>商城-详情</title>
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link type="text/css" href="css/common.css" rel="stylesheet" />
+  <link type="text/css" href="css/styles.css" rel="stylesheet" />
+  
+ </head>
+ <body>
+	<!-- 页首 start -->
+	<div class="header">
+		<div class="topbar">
+			<div class="wrap">
+				<div class="logbox">
+					<a href="login.html">登录</a>
+					<a href="regist.html">注册</a>
+					<!-- <a class="but-car" id="butCar" href="javascript:;">购物车<em>（0）</em></a>
+					<a class="my-order" href="javascript:;">我的订单</a> -->
+				</div>
+
+				<a href="#">首页</a>
+				<a href="#">设计</a>
+				<a href="#">商务合作</a>
+				<a href="#">家居商城</a>
+			</div>
+		</div>
+
+		<div class="navbar">
+			<div class="wrap">
+				<h1><a href="index.html">LOGO</a></h1>
+				<ul class="nav">
+					<li>
+						<a href="index.html">首页</a>
+					</li>
+					<li>
+						<a href="decorate_case.html">设计案例</a>
+						<div class="submenu">
+							<a href="#">家装案例</a>
+							<a href="#">工装案例</a>
+						</div>
+					</li>
+					<li>
+						<a href="decorate_pic.html">装修图库</a>
+						<div class="submenu">
+							<a href="#">家装案例</a>
+							<a href="#">工装案例</a>
+						</div>
+					</li>
+					<li>
+						<a href="decorate_learn.html">学装修</a>
+					</li>
+					<li>
+						<a href="decorate_ask.html">有问必答</a>
+					</li>
+					<li>
+						<a href="decorate_designer.html">找设计师</a>
+					</li>
+					<li class="cur">
+						<a href="shop.html">逛商城</a>
+					</li>
+				</ul>
+				<div class="search clfix">
+					<form autocomplete="off">
+						<input type="text" name="keyword" placeholder="请输入关键词" /><button type="submit">&#xe012;</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- 页首 end -->
+
+	<!-- 主内容 start -->
+	<div class="container shop-detail">
+		<div class="wrap">
+			<!-- 当前位置 start -->
+			<div class="cur-addr">
+				<a class="type" href="shop_list.html">建材 基础材料 油漆涂料</a>
+				&nbsp;&gt;&nbsp;
+				<span>【无毒无害】万达油漆 规格25*42家用油漆</span>
+			</div>
+			<!-- 当前位置 end -->
+
+			<!-- 商品信息 start -->
+			<div class="shop-info clfix">
+				<!-- 图片放大展示 start -->
+				<div class="info-l">
+					<div class="img-show" id="imgShow">
+						<img class="show-pic" src="images/show-1.jpg" />
+						<div class="imgbar"></div>
+						<div class="big-pic">
+							<img src="images/show-1.jpg" />
+						</div>
+					</div>
+					<div class="img-small" id="imgSmall">
+						<img class="cur" src="images/show-1.jpg" />
+						<img src="images/show-2.jpg" />
+						<img src="images/show-3.jpg" />
+					</div>
+				</div>
+				<!-- 图片放大展示 end -->
+				<div class="info-r">
+					<h3>【无毒无害】万达油漆 规格25*42家用油漆</h3>
+					<div class="price">
+						<p>原价：<del>￥16275.00</del></p>
+						<p class="cur-price">价格：<em>￥16275.00</em></p>
+						<div class="phone-buy">
+							<img src="images/qrcode.png" width="80" height="80" />
+							<p>手机购买</p>
+						</div>
+					</div>
+					<p class="num">
+						<span>销量：<em>0</em> 件</span>
+						<span>评分：<em>5.0</em> 分</span>
+						<span>评论：<em>0</em> 条</span>
+					</p>
+					<div class="buy">
+						<p class="buy-num">
+							<span>购买数量：</span>
+							<i id="movenum">-</i><input type="text" id="selectNum" name="buynum" value="1" /><i id="addnum">+</i>　件
+							
+							<span class="remain">库存 500 件</span>
+						</p>
+						<p class="tips">提示：卖家承担运费</p>
+						<p class="service">服务承诺：
+							<span>正品保证</span>
+							<span>7天无理由退货</span>
+						</p>
+						<div class="btns">
+							<a class="buy-btn" href="javascript:;">立即购买</a>
+							<!-- 传递商品id,价格, 名称到购物车 -->
+							<a class="add-to-car" href="javascript:;" data-goods-id="2354" data-goods-price="16275.00" data-goods-title="【无毒无害】万达油漆 规格25*42家用油漆">加入购物车
+								<i class="moveicon"><img src="images/show-1.jpg" /></i>
+							</a>
+						</div>
+						
+					</div>
+				</div>
+				<div class="info-s">
+					<p>卖家：<a class="sell" href="javascript:;">爱狗窝家居商城（自营店铺）自营店</a></p>
+					<p class="contact">联系客服：<a href="#"><img src="images/qq.jpg" /></a></p>
+				</div>
+			</div>
+			<!-- 商品信息 end -->
+			
+			<!-- 产品介绍 start -->
+			<div class="introbox clfix">
+				<div class="intro-l">
+					<p>店内搜索</p>
+					<div class="search">
+						<form>
+							<input type="text" name="keyword" placeholder="关键词" /><button>&#xe012;</button>
+						</form>
+					</div>
+					<p>相关分类</p>
+					<div class="catalog">
+						<dl>
+							<dt>基础材料</dt>
+							<dd><a href="javascript:;">开关</a></dd>
+							<dd><a href="javascript:;">开关</a></dd>
+							<dd><a href="javascript:;">开关</a></dd>
+							<dd><a href="javascript:;">开关</a></dd>
+							<dd><a href="javascript:;">开关</a></dd>
+							<dd><a href="javascript:;">开关</a></dd>
+						</dl>
+						<dl>
+							<dt>厨卫主材</dt>
+							<dd><a href="javascript:;">开关</a></dd>
+							<dd><a href="javascript:;">开关</a></dd>
+							<dd><a href="javascript:;">开关</a></dd>
+							<dd><a href="javascript:;">开关</a></dd>
+							<dd><a href="javascript:;">开关</a></dd>
+							<dd><a href="javascript:;">开关</a></dd>
+						</dl>
+						<dl>
+							<dt>客卧主材</dt>
+							<dd><a href="javascript:;">开关</a></dd>
+							<dd><a href="javascript:;">开关</a></dd>
+							<dd><a href="javascript:;">开关</a></dd>
+							<dd><a href="javascript:;">开关</a></dd>
+							<dd><a href="javascript:;">开关</a></dd>
+							<dd><a href="javascript:;">开关</a></dd>
+						</dl>
+					</div>
+				</div>
+				<div class="intro-r">
+					<div class="selnav">
+						<ul class="tab" id="fixedBar">
+							<li class="tab-items cur"  data-target="intro">商品介绍</li>
+							<li class="tab-items"  data-target="cmt">累计评价（<em>0</em>）</li>
+							<li class="tab-items"  data-target="advice">商品咨询</li>
+							<li class="add-btn">
+								<a class="add-to-car" href="javascript:;" data-goods-id="2354" data-goods-price="16275.00" data-goods-title="【无毒无害】万达油漆 规格25*42家用油漆">
+								加入购物车<i class="moveicon"><img src="images/show-1.jpg" /></i>
+								</a>
+							</li>
+						</ul>
+					</div>
+					<!-- 产品介绍 start -->
+					<div class="intro" id="_intro">
+						<ul class="intro-attr">
+							<li>商品编号：DZY2602</li>
+							<li>上架时间：2016-08-20</li>
+							<li>商品毛重：0.000kg</li>
+							<li>品牌：万达油漆</li>
+							<li>分类：沙发</li>
+							<li>材质：木</li>
+							<li>适用范围：客厅</li>
+							<li>风格：田园</li>
+						</ul>
+						<h3>产品信息</h3>
+						<div class="imgbox">
+							<img src="images/intro1.jpg" />
+							<img src="images/intro2.jpg" />
+							<img src="images/intro3.jpg" />
+						</div>
+					</div>
+					<!-- 产品介绍 end -->
+					
+					<!-- 累计评价 start -->
+					<div class="cmt" id="_cmt">
+						<div class="cmtnum clfix">
+							<div class="cmtnum-l">
+								<p>好评率</p>
+								<em>100%</em>
+							</div>
+							<div class="cmtnum-r">
+								<p>好评：0</p>
+								<p>中评：0</p>
+								<p>差评：0</p>
+							</div>
+						</div>
+						<div class="select">
+							<input type="radio" id="allCmt" name="cmtlist" value="0" checked/><label for="allCmt">全部</label>
+							<input type="radio" id="textCmt" name="cmtlist" value="1" /><label for="textCmt">有内容(122)</label>
+							<input type="radio" id="imgCmt" name="cmtlist" value="2" /><label for="imgCmt">有图片(166)</label>
+						</div>
+						<table class="cmt-list" id="_cmtList">
+							<tr>
+								<td class="context">
+									<div class="text">给父亲买的 父亲开始说不要不要有个电话就行 智能机太麻烦 最后还是我强塞过去的 用了这好几天 父亲还找我学如何使用 看来父亲嘴上说嫌麻烦 但实际还是很喜欢的 本机自带的一些小工具很好 运行方便 尺寸大小合适 轻便 运行速度快 我很满意</div>
+									<div class="imgshow">
+										<ul>
+											<li><img src="images/cmt-1.jpg" width="40" height="40" /></li>
+											<li><img src="images/cmt-2.jpg" width="40" height="40" /></li>
+										</ul>
+									</div>
+									<p class="cmt-time">08.12</p>
+								</td>
+								<td class="user">
+									0***td<span>（匿名）</span>
+								</td>
+							</tr>
+							<tr>
+								<td class="context">
+									<div class="text">给父亲买的 父亲开始说不要不要有个电话就行 智能机太麻烦 最后还是我强塞过去的 用了这好几天 父亲还找我学如何使用 看来父亲嘴上说嫌麻烦 但实际还是很喜欢的 本机自带的一些小工具很好 运行方便 尺寸大小合适 轻便 运行速度快 我很满意</div>
+									<div class="imgshow">
+										<ul>
+											<li><img src="images/cmt-1.jpg" width="40" height="40" /></li>
+											<li><img src="images/cmt-2.jpg" width="40" height="40" /></li>
+										</ul>
+									</div>
+									<p class="cmt-time">08.12</p>
+								</td>
+								<td class="user">
+									0***td<span>（匿名）</span>
+								</td>
+							</tr>
+							<tr>
+								<td class="context">
+									<div class="text">给父亲买的 父亲开始说不要不要有个电话就行 智能机太麻烦 最后还是我强塞过去的 用了这好几天 父亲还找我学如何使用 看来父亲嘴上说嫌麻烦 但实际还是很喜欢的 本机自带的一些小工具很好 运行方便 尺寸大小合适 轻便 运行速度快 我很满意</div>
+									<div class="imgshow">
+										<ul>
+											<li><img src="images/cmt-1.jpg" width="40" height="40" /></li>
+											<li><img src="images/cmt-2.jpg" width="40" height="40" /></li>
+										</ul>
+									</div>
+									<p class="cmt-time">08.12</p>
+								</td>
+								<td class="user">
+									0***td<span>（匿名）</span>
+								</td>
+							</tr>
+							<tr>
+								<td class="context">
+									<div class="text">给父亲买的 父亲开始说不要不要有个电话就行 智能机太麻烦 最后还是我强塞过去的 用了这好几天 父亲还找我学如何使用 看来父亲嘴上说嫌麻烦 但实际还是很喜欢的 本机自带的一些小工具很好 运行方便 尺寸大小合适 轻便 运行速度快 我很满意</div>
+									<div class="imgshow">
+										<ul>
+											<li><img src="images/cmt-1.jpg" width="40" height="40" /></li>
+											<li><img src="images/cmt-2.jpg" width="40" height="40" /></li>
+										</ul>
+									</div>
+									<p class="cmt-time">08.12</p>
+								</td>
+								<td class="user">
+									0***td<span>（匿名）</span>
+								</td>
+							</tr>
+							<tr>
+								<td class="context">
+									<div class="text">给父亲买的 父亲开始说不要不要有个电话就行 智能机太麻烦 最后还是我强塞过去的 用了这好几天 父亲还找我学如何使用 看来父亲嘴上说嫌麻烦 但实际还是很喜欢的 本机自带的一些小工具很好 运行方便 尺寸大小合适 轻便 运行速度快 我很满意</div>
+									<div class="imgshow">
+										<ul>
+											<li><img src="images/cmt-1.jpg" width="40" height="40" /></li>
+											<li><img src="images/cmt-2.jpg" width="40" height="40" /></li>
+										</ul>
+									</div>
+									<p class="cmt-time">08.12</p>
+								</td>
+								<td class="user">
+									0***td<span>（匿名）</span>
+								</td>
+							</tr>
+						</table>
+					</div>
+					<!-- 累计评价 end -->
+
+					<!-- 产品咨询 start -->
+					<div class="advice" id="_advice">
+						<div class="ad-filter clifx">
+							<a class="ad-btn fr" href="#adInput">我要咨询</a>
+							<ul class="tab">
+								<li class="tab-items cur">全部咨询(<em>0</em>)</li>
+								<li class="tab-items">商品咨询(<em>0</em>)</li>
+								<li class="tab-items">库存配送(<em>0</em>)</li>
+								<li class="tab-items">支付方式(<em>0</em>)</li>
+								<li class="tab-items">发票保修(<em>0</em>)</li>
+							</ul>
+						</div>
+						<div class="ad-list">
+							<table>
+								<tr>
+									<td class="context">
+										<p class="type">库存配送</p> 
+										<div class="text">问：请问下单后几时能发货？</div>
+										<div class="replay">
+											答：您好！用户付款后，订单在1-7天时间内发货，到货时间以物流到达的时间为准.
+										</div>
+										<p class="cmt-time">08.12</p>
+									</td>
+									<td class="user">
+										0***td<span>（匿名）</span>
+									</td>
+								</tr>
+								<tr>
+									<td class="context">
+										<p class="type">库存配送</p> 
+										<div class="text">问：请问下单后几时能发货？</div>
+										<div class="replay">
+											答：您好！用户付款后，订单在1-7天时间内发货，到货时间以物流到达的时间为准.
+										</div>
+										<p class="cmt-time">08.12</p>
+									</td>
+									<td class="user">
+										0***td<span>（匿名）</span>
+									</td>
+								</tr>
+								<tr>
+									<td class="context">
+										<p class="type">库存配送</p> 
+										<div class="text">问：请问下单后几时能发货？</div>
+										<div class="replay">
+											答：您好！用户付款后，订单在1-7天时间内发货，到货时间以物流到达的时间为准.
+										</div>
+										<p class="cmt-time">08.12</p>
+									</td>
+									<td class="user">
+										0***td<span>（匿名）</span>
+									</td>
+								</tr>
+								<tr>
+									<td class="context">
+										<p class="type">库存配送</p> 
+										<div class="text">问：请问下单后几时能发货？</div>
+										<div class="replay">
+											答：您好！用户付款后，订单在1-7天时间内发货，到货时间以物流到达的时间为准.
+										</div>
+										<p class="cmt-time">08.12</p>
+									</td>
+									<td class="user">
+										0***td<span>（匿名）</span>
+									</td>
+								</tr>
+								<tr>
+									<td class="context">
+										<p class="type">库存配送</p> 
+										<div class="text">问：请问下单后几时能发货？</div>
+										<div class="replay">
+											答：您好！用户付款后，订单在1-7天时间内发货，到货时间以物流到达的时间为准.
+										</div>
+										<p class="cmt-time">08.12</p>
+									</td>
+									<td class="user">
+										0***td<span>（匿名）</span>
+									</td>
+								</tr>
+								<tr>
+									<td class="context">
+										<p class="type">库存配送</p> 
+										<div class="text">问：请问下单后几时能发货？</div>
+										<div class="replay">
+											答：您好！用户付款后，订单在1-7天时间内发货，到货时间以物流到达的时间为准.
+										</div>
+										<p class="cmt-time">08.12</p>
+									</td>
+									<td class="user">
+										0***td<span>（匿名）</span>
+									</td>
+								</tr>
+							</table>
+						</div>
+						<div class="ad-input" id="adInput">
+							<form>
+								<h4>发表咨询</h4>
+								<p class="tips">声明：您可以在购买前对产品包装、颜色、运输、库存等方面进行咨询，我们有专人进行回复！因厂家随时会更新一些产品的包装、颜色、产地等参数，所以该回复仅在当时对提问者有效，其他网友仅供参考！咨询回复的工作时间为：周一至周五，9:00至18:00，请耐心等待工作人员回复。</p>
+								<div class="ad-content">
+									<div class="ad-line clfix">
+										<span class="ad-l">咨询类型：</span>
+										<div class="ad-r">
+											<label>
+												<input type="radio" name="adtype" checked="checked" value="0"/>&nbsp;商品咨询
+											</label>
+											<label>
+												<input type="radio" name="adtype" value="1"/>&nbsp;库存配送
+											</label>
+											<label>
+												<input type="radio" name="adtype" value="2"/>&nbsp;支付方式
+											</label>
+											<label>
+												<input type="radio" name="adtype" value="3"/>&nbsp;发票保修
+											</label>
+										</div>
+									</div>
+									<div class="ad-line clfix">
+										<span class="ad-l">咨询内容：</span>
+										<div class="ad-r">
+											<textarea placeholder="您想咨询的问题"></textarea>
+										</div>
+									</div>
+									<div class="ad-line clfix">
+										<span class="ad-l">联系方式：</span>
+										<div class="ad-r">
+											<input type="text" class="contact" name="contact" />
+											<label class="hidename">
+												<input type="checkbox" name="hidename" />&nbsp;匿名
+											</label>
+										</div>
+									</div>
+								</div>
+
+								<a class="submit-btn" href="javascript:;">提交咨询</a>
+							</form>
+						</div>
+					</div>
+					<!-- 产品咨询 end -->
+				</div>
+			</div>
+			<!-- 产品介绍 end -->
+		</div>
+	
+	</div>
+	<!-- 主内容 end -->
+
+	<!-- 侧栏 start -->
+	<div class="buy-sidebar">
+		<div class="btns">
+			<a id="buyCar" href="javascript:;">购物车<em>0</em></a>
+			<a id="myOrder" href="javascript:;">我的订单</a>
+		</div>
+		<div class="count">
+			<div class="count-hd">
+				<label><input type="checkbox" id="checkAll" name="checkal" checked>&nbsp;全选</label>
+				<a href="javascript:;">全屏查看</a>
+			</div>
+			<div class="count-bd">
+				<table id="checkedList">
+					<!-- <tr>
+						<td><input type="checkbox" checked></td>
+						<td>
+							<a href="javascript:;" title="【无毒无害】万达油漆 规格25*42家用油漆"><img src="images/show-1.jpg" width="60" height="60" /></a>
+						</td>
+						<td class="checked-num">
+							<a class="minus" href="javascript:;"></a>
+							<span>10</span>
+							<a class="plus" href="javascript:;"></a>
+						</td>
+						<td class="counts">
+							<a class="delete" href="javascript:;" title="删除"></a>
+							<span class="price">¥279.22</span>
+							<strong class="total-price">¥2792.20</strong>
+						</td>
+					</tr> -->
+				</table>
+			</div>
+		</div>
+		<div class="bar-ft">
+			<div>
+				<span>已选<span id="checkedNum">0</span>件</span>
+				<em id="totalPrice">¥0.00</em>
+			</div>
+			<a id="payBtn" href="javascript:;">结算</a>
+		</div>
+	</div>
+	<!-- 侧栏 end -->
+
+	<!-- 返回顶部 -->
+	<a id="floatSideBar" href="javascript:;" data-icon="e027">&#xe027;</a>
+	<!-- 返回顶部 -->
+
+	<!-- 页脚 start -->
+	<div class="footer">
+		<div class="foot-middle">
+			<div class="wrap">
+				<div class="foot-mid-l">
+					<h4>以诚为本，送福至家</h4>
+					<p>
+						<a href="javascript:;">关于我们</a>
+						<span>|</span>
+						<a href="javascript:;">关于我们</a>
+						<span>|</span>
+						<a href="javascript:;">关于我们</a>
+						<span>|</span>
+						<a href="javascript:;">关于我们</a>
+						<span>|</span>
+						<a href="javascript:;">关于我们</a>
+					</p>
+					<p>反馈意见：<a href="#">service@qq.com</a></p>
+					<p>客服电话：400-620-6188</p>
+				</div>
+				<div class="foot-mid-m">
+					<h4>热门标签</h4>
+					<p>
+						<a href="#">客厅背景墙</a>
+						<a href="#">客厅背景墙</a>
+						<a href="#">客厅背景墙</a>
+						<a href="#">客厅背景墙</a>
+						<a href="#">客厅背景墙</a>
+						<a href="#">客厅背景墙</a>
+						<a href="#">客厅背景墙</a>
+						<a href="#">客厅背景墙</a>
+						<a href="#">客厅背景墙</a>
+						<a href="#">客厅背景墙</a>
+						<a href="#">客厅背景墙</a>
+						<a href="#">更多...</a>
+					</p>
+				</div>
+				<div class="foot-mid-r">
+					<img src="images/weixin.png" alt=""/>
+					<p>扫码访问爱福窝装修管家</p>
+				</div>
+			</div>
+		</div>
+		<div class="foot-bottom">
+			<div class="wrap">
+				<p>合作网站：
+					<a href="#">手机版</a>
+					<span>|</span>
+					<a href="#">手机版</a>
+					<span>|</span>
+					<a href="#">手机版</a>
+					<span>|</span>
+					<a href="#">手机版</a>
+					<span>|</span>
+					<a href="#">手机版</a>
+					<span>|</span>
+					<a href="#">手机版</a>
+					<span>|</span>
+					<a href="#">手机版</a>
+					<span>|</span>
+					<a href="#">手机版</a>
+					<span>|</span>
+					<a href="#">手机版</a>
+					<span>|</span>
+					<a href="#">手机版</a>
+				</p>
+				<br/>
+				<p>©2015 上海爱福窝云技术有限公司 版权所有 - 沪ICP备08102393号</p>
+			</div>
+		</div>
+	</div>
+	<!-- 页脚 end -->
+
+	<script src="js/jquery.js" charset="utf-8" ></script>
+	<script src="js/common.js" charset="utf-8" ></script>
+	<script src="js/parabola.js" charset="utf-8" ></script>
+	<script src="js/pictureRotate.js" charset="utf-8" ></script>
+	<script>
+		/*显示所有商品菜单*/
+		$('#showAll').click(function(e){
+			e.stopPropagation();
+			$('#all-goods').show();
+			$(this).css('color','#f60');
+		});
+		$('#all-goods').click(function(e){ e.stopPropagation(); });
+		$(document).click(function(){
+			$('#all-goods').hide();
+			$('#showAll').css('color','');
+		});
+	</script>
+ </body>
+</html>

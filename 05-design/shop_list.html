@@ -1,0 +1,629 @@
+<!doctype html>
+<html>
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <title>商城-列表页</title>
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link type="text/css" href="css/common.css" rel="stylesheet" />
+  <link type="text/css" href="css/styles.css" rel="stylesheet" />
+  
+ </head>
+ <body>
+	<!-- 页首 start -->
+	<div class="header">
+		<div class="topbar">
+			<div class="wrap">
+				<div class="logbox">
+					<a href="login.html">登录</a>
+					<a href="regist.html">注册</a>
+					<!-- <a class="but-car" id="butCar" href="javascript:;">购物车<em>（0）</em></a>
+					<a class="my-order" href="javascript:;">我的订单</a> -->
+				</div>
+
+				<a href="#">首页</a>
+				<a href="#">设计</a>
+				<a href="#">商务合作</a>
+				<a href="#">家居商城</a>
+			</div>
+		</div>
+
+		<div class="navbar">
+			<div class="wrap">
+				<h1><a href="index.html">LOGO</a></h1>
+				<ul class="nav">
+					<li>
+						<a href="index.html">首页</a>
+					</li>
+					<li>
+						<a href="decorate_case.html">设计案例</a>
+						<div class="submenu">
+							<a href="#">家装案例</a>
+							<a href="#">工装案例</a>
+						</div>
+					</li>
+					<li>
+						<a href="decorate_pic.html">装修图库</a>
+						<div class="submenu">
+							<a href="#">家装案例</a>
+							<a href="#">工装案例</a>
+						</div>
+					</li>
+					<li>
+						<a href="decorate_learn.html">学装修</a>
+					</li>
+					<li>
+						<a href="decorate_ask.html">有问必答</a>
+					</li>
+					<li>
+						<a href="decorate_designer.html">找设计师</a>
+					</li>
+					<li class="cur">
+						<a href="shop.html">逛商城</a>
+					</li>
+				</ul>
+				<div class="search clfix">
+					<form autocomplete="off">
+						<input type="text" name="keyword" placeholder="请输入关键词" /><button type="submit">&#xe012;</button>
+					</form>
+				</div>
+				
+				<!-- 面包屑导航 start -->
+				<div class="sidenav shop-sidenav" id="all-goods">
+					<div class="sidenav-inner">
+						<span>建材</span>
+						<p>
+							<a href="#">基础材料</a>
+							<a href="#">厨卫主材</a>
+							<a href="#">客卧主材</a>
+							<a href="#">家用电器</a>
+							<a href="#">灯饰照明</a>
+							<a href="#">智能家居</a>
+						
+						</p>
+						<!-- 二级菜单 start -->
+						<div class="submenu">
+							<div class="submenu-inner">
+								<span>基础材料</span>
+								<p>
+									<a href="#">开关</a>
+									<a href="#">水管</a>
+									<a href="#">电线</a>
+									<a href="#">五金</a>
+									<a href="#">辅料</a>
+									<a href="#">板材</a>
+									<a href="#">油漆涂料</a>
+								</p>
+							</div>
+							<div class="submenu-inner">
+								<span>厨卫主材</span>
+								<p>
+									<a href="#">小户型</a>
+									<a href="#">二居</a>
+									<a href="#">三居</a>
+									<a href="#">复古式</a>
+									<a href="#">小户型</a>
+								</p>
+							</div>
+							<div class="submenu-inner">
+								<span>客卧主材</span>
+								<p>
+									<a href="#">小户型</a>
+									<a href="#">二居</a>
+									<a href="#">三居</a>
+									<a href="#">复古式</a>
+									<a href="#">小户型</a>
+								</p>
+							</div>
+							<div class="submenu-inner">
+								<span>客卧主材</span>
+								<p>
+									<a href="#">小户型</a>
+									<a href="#">二居</a>
+									<a href="#">三居</a>
+									<a href="#">复古式</a>
+									<a href="#">小户型</a>
+								</p>
+							</div>
+						</div>
+						<!-- 二级菜单 end -->
+					</div>
+					<div class="sidenav-inner">
+						<span>家具</span>
+						<p>
+							<a href="#">卧室</a>
+							<a href="#">客厅</a>
+							<a href="#">餐厅</a>
+							<a href="#">书房</a>
+							<a href="#">儿童房</a>
+							<a href="#">户外家具</a>
+							<a href="#">定制家具</a>
+							<a href="#">阳台户外</a>
+						</p>
+						<!-- 二级菜单 start -->
+						<div class="submenu">
+							<div class="submenu-inner">
+								<span>卧室</span>
+								<p>
+									<a href="#">小户型</a>
+									<a href="#">二居</a>
+									<a href="#">三居</a>
+									<a href="#">复古式</a>
+									<a href="#">小户型</a>
+								</p>
+							</div>
+							<div class="submenu-inner">
+								<span>客厅</span>
+								<p>
+									<a href="#">客厅</a>
+									<a href="#">二居</a>
+									<a href="#">三居</a>
+									<a href="#">复古式</a>
+									<a href="#">小户型</a>
+									<a href="#">小户型</a>
+									<a href="#">小户型</a>
+								</p>
+							</div>
+							<div class="submenu-inner">
+								<span>客厅</span>
+								<p>
+									<a href="#">客厅</a>
+									<a href="#">二居</a>
+									<a href="#">三居</a>
+									<a href="#">复古式</a>
+									<a href="#">小户型</a>
+									<a href="#">小户型</a>
+									<a href="#">小户型</a>
+								</p>
+							</div>
+							<div class="submenu-inner">
+								<span>客厅</span>
+								<p>
+									<a href="#">客厅</a>
+									<a href="#">二居</a>
+									<a href="#">三居</a>
+									<a href="#">复古式</a>
+									<a href="#">小户型</a>
+									<a href="#">小户型</a>
+									<a href="#">小户型</a>
+								</p>
+							</div>
+							<div class="submenu-inner">
+								<span>客厅</span>
+								<p>
+									<a href="#">客厅</a>
+									<a href="#">二居</a>
+									<a href="#">三居</a>
+									<a href="#">复古式</a>
+									<a href="#">小户型</a>
+									<a href="#">小户型</a>
+									<a href="#">小户型</a>
+								</p>
+							</div>
+							<div class="submenu-inner">
+								<span>客厅</span>
+								<p>
+									<a href="#">客厅</a>
+									<a href="#">二居</a>
+									<a href="#">三居</a>
+									<a href="#">复古式</a>
+									<a href="#">小户型</a>
+									<a href="#">小户型</a>
+									<a href="#">小户型</a>
+								</p>
+							</div>
+						</div>
+						<!-- 二级菜单 end -->
+					</div>
+					<div class="sidenav-inner">
+						<span>热门推荐</span>
+						<p>
+							<a href="#">瓷砖</a>
+							<a href="#">瓷砖</a>
+							<a href="#">卫浴</a>
+							<a href="#">地板</a>
+							<a href="#">户外家具</a>
+							<a href="#">定制家具</a>
+							<a href="#">三居</a>
+							<a href="#">三居</a>
+							<a href="#">三居</a>
+							<a href="#">三居</a>
+						</p>
+					</div>
+				</div>
+				<!-- 面包屑导航 end -->
+			</div>
+		</div>
+	</div>
+	<!-- 页首 end -->
+
+	<!-- 主内容 start -->
+	<div class="container shop-list">
+		<div class="wrap">
+			<!-- 条件筛选 start -->
+			<div class="filter">
+				<div class="cur-type">
+					<span id="showAll">全部商品分类<i>&#xe011;</i></span>
+					<span class="selected">建材 基础材料 油漆涂料</span>
+				</div>
+				<div class="filter-title" href="shop_detail.html">
+					<span>油漆涂料</span> - 商品筛选
+				</div>
+				
+				<div class="filterbox">
+					<div class="filterlist">
+						<span class="type">品牌：</span>
+						<div class="selection tab">
+							<a class="tab-items" href="javascript:;">万达油漆</a>
+							<a class="tab-items" href="javascript:;">万达油漆</a>
+							<a class="tab-items" href="javascript:;">万达油漆</a>
+							<a class="tab-items" href="javascript:;">万达油漆</a>
+							<a class="tab-items" href="javascript:;">万达油漆</a>
+						</div>
+						<span class="btn" data-iconup="e010;" data-icondown="e011;"></span>
+					</div>
+					<div class="filterlist">
+						<span class="type">风格：</span>
+						<div class="selection tab">
+							<a class="tab-items" href="javascript:;">欧式</a>
+							<a class="tab-items" href="javascript:;">中式</a>
+							<a class="tab-items" href="javascript:;">新古典</a>
+							<a class="tab-items" href="javascript:;">美式</a>
+							<a class="tab-items" href="javascript:;">田园式</a>
+						</div>
+						<span class="btn" data-iconup="e010;" data-icondown="e011;"></span>
+					</div>
+					<div class="filterlist">
+						<span class="type">户型：</span>
+						<div class="selection tab">
+							<a class="tab-items" href="javascript:;">小户型</a>
+							<a class="tab-items" href="javascript:;">二居</a>
+							<a class="tab-items" href="javascript:;">三居</a>
+							<a class="tab-items" href="javascript:;">四居</a>
+							<a class="tab-items" href="javascript:;">复式</a>
+						</div>
+						<span class="btn" data-iconup="e010;" data-icondown="e011;"></span>
+					</div>
+					<div class="filterlist">
+						<span class="type">颜色：</span>
+						<div class="selection tab">
+							<a class="tab-items" href="javascript:;">白色</a>
+							<a class="tab-items" href="javascript:;">白色</a>
+							<a class="tab-items" href="javascript:;">白色</a>
+							<a class="tab-items" href="javascript:;">白色</a>
+							<a class="tab-items" href="javascript:;">白色</a>
+							<a class="tab-items" href="javascript:;">白色</a>
+						</div>
+						<span class="btn" data-iconup="e010;" data-icondown="e011;"></span>
+					</div>
+					<div class="filterlist">
+						<span class="type">面积：</span>
+						<div class="selection tab">
+							<a class="tab-items" href="javascript:;">30-60平米</a>
+							<a class="tab-items" href="javascript:;">60-90平米</a>
+							<a class="tab-items" href="javascript:;">60-90平米</a>
+							<a class="tab-items" href="javascript:;">60-90平米</a>
+							<a class="tab-items" href="javascript:;">60-90平米</a>
+							<a class="tab-items" href="javascript:;">60-90平米</a>
+							<a class="tab-items" href="javascript:;">60-90平米</a>
+							<a class="tab-items" href="javascript:;">60-90平米</a>
+							<a class="tab-items" href="javascript:;">60s-90s平米</a>
+							<a class="tab-items" href="javascript:;">60s-90s平米</a>
+							<a class="tab-items" href="javascript:;">60s-90s平米</a>
+							<a class="tab-items" href="javascript:;">60s-90s平米</a>
+						</div>
+						<span class="btn" data-iconup="e010;" data-icondown="e011;"></span>
+					</div>
+				</div>
+				
+			</div>
+			<!-- 条件筛选 end -->
+
+			<!-- 排序 start -->
+			<div class="outbox clfix">
+				<div class="order tab" id="fixedBar">
+					<span class="fr">共<em>12</em>件商品</span>
+					<a class="tab-items cur" href="javascript:;">销量</a>
+					<a class="tab-items" href="javascript:;">价格</a>
+					<a class="tab-items" href="javascript:;">上架时间</a>
+				</div>
+			</div>
+			<!-- 排序 end -->
+
+			<!-- 商品列表 start -->
+			<div class="main-items">
+				<div class="inner clfix">
+					<dl>
+						<dt>
+							<a href="shop_detail.html">
+								<img src="images/s2.jpg" />
+							</a>
+							<a class="add-to-car" href="javascript:;" data-goods-id="24" data-goods-price="30.00" data-goods-title="【无毒无害】万达油漆 规格25*42家用油漆">加入购物车
+								<i class="moveicon"><img src="images/s2.jpg" /></i>
+							</a>
+						</dt>
+						<dd>
+							<a class="title" href="shop_detail.html">【无毒无害】万达油漆 规格25*42家用油漆</a>
+							<span class="price">￥30.00</span>
+						</dd>
+					</dl>
+					<dl>
+						<dt>
+							<a href="shop_detail.html">
+								<img src="images/s3.jpg" />
+							</a>
+							<a class="add-to-car" href="javascript:;" data-goods-id="26" data-goods-price="80.00" data-goods-title="【无毒无害】万达油漆 规格25*42家用油漆">加入购物车
+								<i class="moveicon"><img src="images/s3.jpg" /></i>
+							</a>
+						</dt>
+						<dd>
+							<a class="title" href="shop_detail.html">【无毒无害】万达油漆 规格25*42家用油漆</a>
+							<span class="price">￥80.00</span>
+						</dd>
+					</dl>
+					<dl>
+						<dt>
+							<a href="shop_detail.html">
+								<img src="images/s4.jpg" />
+							</a>
+							<a class="add-to-car" href="javascript:;" data-goods-id="24" data-goods-price="1000.60" data-goods-title="【无毒无害】万达油漆 规格25*42家用油漆">加入购物车
+								<i class="moveicon"><img src="images/s4.jpg" /></i>
+							</a>
+						</dt>
+						<dd>
+							<a class="title" href="shop_detail.html">【无毒无害】万达油漆 规格25*42家用油漆</a>
+							<span class="price">￥1000.60</span>
+						</dd>
+					</dl>
+					<dl>
+						<dt>
+							<a href="shop_detail.html">
+								<img src="images/s5.jpg" />
+							</a>
+							<a class="add-to-car" href="javascript:;" data-goods-id="94" data-goods-price="275.40" data-goods-title="【无毒无害】万达油漆 规格25*42家用油漆">加入购物车
+								<i class="moveicon"><img src="images/s5.jpg" /></i>
+							</a>
+						</dt>
+						<dd>
+							<a class="title" href="shop_detail.html">【无毒无害】万达油漆 规格25*42家用油漆</a>
+							<span class="price">￥275.40</span>
+						</dd>
+					</dl>
+					<dl>
+						<dt>
+							<a href="shop_detail.html">
+								<img src="images/s4.jpg" />
+							</a>
+							<a class="add-to-car" href="javascript:;" data-goods-id="74" data-goods-price="654.00" data-goods-title="【无毒无害】万达油漆 规格25*42家用油漆">加入购物车
+								<i class="moveicon"><img src="images/s4.jpg" /></i>
+							</a>
+						</dt>
+						<dd>
+							<a class="title" href="shop_detail.html">【无毒无害】万达油漆 规格25*42家用油漆</a>
+							<span class="price">￥654.00</span>
+						</dd>
+					</dl>
+					<dl>
+						<dt>
+							<a href="shop_detail.html">
+								<img src="images/s3.jpg" />
+							</a>
+							<a class="add-to-car" href="javascript:;" data-goods-id="44" data-goods-price="75.00" data-goods-title="【无毒无害】万达油漆 规格25*42家用油漆">加入购物车
+								<i class="moveicon"><img src="images/s3.jpg" /></i>
+							</a>
+						</dt>
+						<dd>
+							<a class="title" href="shop_detail.html">【无毒无害】万达油漆 规格25*42家用油漆</a>
+							<span class="price">￥75.00</span>
+						</dd>
+					</dl>
+					<dl>
+						<dt>
+							<a href="shop_detail.html">
+								<img src="images/s3.jpg" />
+							</a>
+							<a class="add-to-car" href="javascript:;" data-goods-id="114" data-goods-price="85.00" data-goods-title="【无毒无害】万达油漆 规格25*42家用油漆">加入购物车
+								<i class="moveicon"><img src="images/s3.jpg" /></i>
+							</a>
+						</dt>
+						<dd>
+							<a class="title" href="shop_detail.html">【无毒无害】万达油漆 规格25*42家用油漆</a>
+							<span class="price">￥85.00</span>
+						</dd>
+					</dl>
+					<dl>
+						<dt>
+							<a href="shop_detail.html">
+								<img src="images/s3.jpg" />
+							</a>
+							<a class="add-to-car" href="javascript:;" data-goods-id="24" data-goods-price="66.00" data-goods-title="【无毒无害】万达油漆 规格25*42家用油漆">加入购物车
+								<i class="moveicon"><img src="images/s3.jpg" /></i>
+							</a>
+						</dt>
+						<dd>
+							<a class="title" href="shop_detail.html">【无毒无害】万达油漆 规格25*42家用油漆</a>
+							<span class="price">￥66.00</span>
+						</dd>
+					</dl>
+					<dl>
+						<dt>
+							<a href="shop_detail.html">
+								<img src="images/s3.jpg" />
+							</a>
+							<a class="add-to-car" href="javascript:;" data-goods-id="24" data-goods-price="6275.00" data-goods-title="【无毒无害】万达油漆 规格25*42家用油漆">加入购物车
+								<i class="moveicon"><img src="images/s3.jpg" /></i>
+							</a>
+						</dt>
+						<dd>
+							<a class="title" href="shop_detail.html">【无毒无害】万达油漆 规格25*42家用油漆</a>
+							<span class="price">￥6275.00</span>
+						</dd>
+					</dl>
+					<dl>
+						<dt>
+							<a href="shop_detail.html">
+								<img src="images/s3.jpg" />
+							</a>
+							<a class="add-to-car" href="javascript:;" data-goods-id="24" data-goods-price="5275.00" data-goods-title="【无毒无害】万达油漆 规格25*42家用油漆">加入购物车
+								<i class="moveicon"><img src="images/s3.jpg" /></i>
+							</a>
+						</dt>
+						<dd>
+							<a class="title" href="shop_detail.html">【无毒无害】万达油漆 规格25*42家用油漆</a>
+							<span class="price">￥5275.00</span>
+						</dd>
+					</dl>
+					<div class="loadmore">滚动加载更多</div>
+				</div>
+			</div>
+			<!-- 商品列表 end -->
+		</div>
+	
+	</div>
+	<!-- 主内容 end -->
+
+	<!-- 侧栏 start -->
+	<div class="buy-sidebar">
+		<div class="btns">
+			<a id="buyCar" href="javascript:;">购物车<em>0</em></a>
+			<a id="myOrder" href="javascript:;">我的订单</a>
+		</div>
+		<div class="count">
+			<div class="count-hd">
+				<label><input type="checkbox" id="checkAll" name="checkal" checked>&nbsp;全选</label>
+				<a href="javascript:;">全屏查看</a>
+			</div>
+			<div class="count-bd">
+				<table id="checkedList">
+					<!-- <tr>
+						<td><input type="checkbox" checked></td>
+						<td>
+							<a href="javascript:;" title="【无毒无害】万达油漆 规格25*42家用油漆"><img src="images/show-1.jpg" width="60" height="60" /></a>
+						</td>
+						<td class="checked-num">
+							<a class="minus" href="javascript:;"></a>
+							<span>10</span>
+							<a class="plus" href="javascript:;"></a>
+						</td>
+						<td class="counts">
+							<a class="delete" href="javascript:;" title="删除"></a>
+							<span class="price">¥279.22</span>
+							<strong class="total-price">¥2792.20</strong>
+						</td>
+					</tr> -->
+				</table>
+			</div>
+		</div>
+		<div class="bar-ft">
+			<div>
+				<span>已选<span id="checkedNum">0</span>件</span>
+				<em id="totalPrice">¥0.00</em>
+			</div>
+			<a id="payBtn" href="javascript:;">结算</a>
+		</div>
+	</div>
+	<!-- 侧栏 end -->
+
+	<!-- 返回顶部 -->
+	<a id="floatSideBar" href="javascript:;" data-icon="e027">&#xe027;</a>
+	<!-- 返回顶部 -->
+
+	<!-- 页脚 start -->
+	<div class="footer">
+		<div class="foot-middle">
+			<div class="wrap">
+				<div class="foot-mid-l">
+					<h4>以诚为本，送福至家</h4>
+					<p>
+						<a href="javascript:;">关于我们</a>
+						<span>|</span>
+						<a href="javascript:;">关于我们</a>
+						<span>|</span>
+						<a href="javascript:;">关于我们</a>
+						<span>|</span>
+						<a href="javascript:;">关于我们</a>
+						<span>|</span>
+						<a href="javascript:;">关于我们</a>
+					</p>
+					<p>反馈意见：<a href="#">service@qq.com</a></p>
+					<p>客服电话：400-620-6188</p>
+				</div>
+				<div class="foot-mid-m">
+					<h4>热门标签</h4>
+					<p>
+						<a href="#">客厅背景墙</a>
+						<a href="#">客厅背景墙</a>
+						<a href="#">客厅背景墙</a>
+						<a href="#">客厅背景墙</a>
+						<a href="#">客厅背景墙</a>
+						<a href="#">客厅背景墙</a>
+						<a href="#">客厅背景墙</a>
+						<a href="#">客厅背景墙</a>
+						<a href="#">客厅背景墙</a>
+						<a href="#">客厅背景墙</a>
+						<a href="#">客厅背景墙</a>
+						<a href="#">更多...</a>
+					</p>
+				</div>
+				<div class="foot-mid-r">
+					<img src="images/weixin.png" alt=""/>
+					<p>扫码访问爱福窝装修管家</p>
+				</div>
+			</div>
+		</div>
+		<div class="foot-bottom">
+			<div class="wrap">
+				<p>合作网站：
+					<a href="#">手机版</a>
+					<span>|</span>
+					<a href="#">手机版</a>
+					<span>|</span>
+					<a href="#">手机版</a>
+					<span>|</span>
+					<a href="#">手机版</a>
+					<span>|</span>
+					<a href="#">手机版</a>
+					<span>|</span>
+					<a href="#">手机版</a>
+					<span>|</span>
+					<a href="#">手机版</a>
+					<span>|</span>
+					<a href="#">手机版</a>
+					<span>|</span>
+					<a href="#">手机版</a>
+					<span>|</span>
+					<a href="#">手机版</a>
+				</p>
+				<br/>
+				<p>©2015 上海爱福窝云技术有限公司 版权所有 - 沪ICP备08102393号</p>
+			</div>
+		</div>
+	</div>
+	<!-- 页脚 end -->
+
+	<script src="js/jquery.js" charset="utf-8" ></script>
+	<script src="js/common.js" charset="utf-8" ></script>
+	<script src="js/parabola.js" charset="utf-8" ></script>
+	<script src="js/pictureRotate.js" charset="utf-8" ></script>
+	<script>
+		/*显示所有商品菜单*/
+		$('#showAll').click(function(e){
+			e.stopPropagation();
+			var _all = $('#all-goods');
+			if( _all.css('display') == 'none' ){
+				_all.show();
+				$(this).css('color','#f60');
+			}else{
+				$('#all-goods').hide();
+				$('#showAll').css('color','');
+			}
+		});
+		$('#all-goods').click(function(e){ e.stopPropagation(); });
+		$(document).click(function(){
+			$('#all-goods').hide();
+			$('#showAll').css('color','');
+		});
+	</script>
+ </body>
+</html>

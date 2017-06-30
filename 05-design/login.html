@@ -1,0 +1,80 @@
+<!doctype html>
+<html>
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <title>登录页面</title>
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link type="text/css" href="css/common.css" rel="stylesheet" />
+  <link type="text/css" href="css/styles.css" rel="stylesheet" />
+ </head>
+ <body>
+	<div class="login-wrap">
+		<div class="log-hd">
+			<a href="index.html"><img src="images/logo1.png" width=256 height=60 /></a>
+			<span class="title">欢迎登录</span>
+		</div>
+		<div class="log-bd">
+			
+			<img class="sidepic" src="images/login.jpg" />
+			<div class="logbox">
+				<div class="tab">
+					<a class="tab-items cur" data-target="weixinLog" href="javascript:;">微信登录</a>
+					<a class="tab-items" data-target="numberLog" href="javascript:;">账号登录</a>
+				</div>
+				<div class="log-type">
+					<!-- 微信登录 start -->
+					<div class="type-1" id="_weixinLog">
+						<div class="qrcode">
+							<img src="images/qrcode.png"/>
+						</div>
+						<p>微信扫码 快速登录</p>
+					</div>
+					<!-- 微信登录 end -->
+
+					<!-- 账号登录 start -->
+					<div class="type-2" id="_numberLog">
+						<form autocomplete="off">
+							<input type="text" name="username" placeholder="请输入用户名/手机/邮箱" />
+							<input type="password" name="userpsd" placeholder="请输入密码" />
+							<label><input type="checkbox" name="autolog" />&nbsp;下次自动登录</label>
+							<button>立即登录</button>
+						</form>
+						<div class="other">
+							<a class="qqlog" href="javascript:;">QQ登录</a>
+							<a class="bloglog" href="javascript:;">微博登录</a>
+							<a href="regist.html">免费注册</a>
+						</div>
+					</div>
+					<!-- 账号登录 end -->
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="log-ft">
+		<div class="link">
+			<a href="javascritp:;">关于我们</a>
+			<span>|</span>
+			<a href="javascritp:;">联系我们</a>
+			<span>|</span>
+			<a href="javascritp:;">意见建议</a>
+			<span>|</span>
+			<a href="javascritp:;">帮助中心</a>
+			<span>|</span>
+			<a href="javascritp:;">使用条款</a>
+		</div>
+		<p>免责声明：本网站部分内容由用户自行上传，如权利人发现存在误传其作品情形，请及时与本站联系。</p>
+		<p>©2012 定制化装修设计服务平台, All Rights Reserved. (粤ICP备08125558号-2)</p>
+		<div class="icons">
+			<a href="javascirpt:;"><img src="images/pl1.png"></a>
+			<a href="javascirpt:;"><img src="images/pl2.png"></a>
+		</div>
+	</div>
+
+
+ <script src="js/jquery.js" charset="utf-8" ></script>
+ <script src="js/common.js" charset="utf-8" ></script>
+
+ </body>
+</html>

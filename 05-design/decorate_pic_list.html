@@ -1,0 +1,531 @@
+<!doctype html>
+<html>
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <title>装修效果图列表</title>
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link type="text/css" href="css/common.css" rel="stylesheet" />
+  <link type="text/css" href="css/styles.css" rel="stylesheet" />
+  
+ </head>
+ <body>
+	<!-- 页首 start -->
+	<div class="header">
+		<div class="topbar">
+			<div class="wrap">
+				<div class="logbox">
+					<a href="login.html">登录</a>
+					<a href="regist.html">注册</a>
+					咨询热线：400-620-6188
+				</div>
+
+				<a href="#">首页</a>
+				<a href="#">设计</a>
+				<a href="#">商务合作</a>
+				<a href="#">家居商城</a>
+			</div>
+		</div>
+
+		<div class="navbar">
+			<div class="wrap">
+				<h1><a href="index.html">LOGO</a></h1>
+				<ul class="nav">
+					<li>
+						<a href="index.html">首页</a>
+					</li>
+					<li>
+						<a href="decorate_case.html">设计案例</a>
+						<div class="submenu">
+							<a href="#">家装案例</a>
+							<a href="#">工装案例</a>
+						</div>
+					</li>
+					<li class="cur">
+						<a href="decorate_pic.html">装修图库</a>
+						<div class="submenu">
+							<a href="#">家装案例</a>
+							<a href="#">工装案例</a>
+						</div>
+					</li>
+					<li>
+						<a href="decorate_learn.html">学装修</a>
+					</li>
+					<li>
+						<a href="decorate_ask.html">有问必答</a>
+					</li>
+					<li>
+						<a href="decorate_designer.html">找设计师</a>
+					</li>
+					<li>
+						<a href="shop.html">逛商城</a>
+					</li>
+				</ul>
+				<div class="search clfix">
+					<form autocomplete="off">
+						<input type="text" name="keyword" placeholder="请输入关键词" /><button type="submit">&#xe012;</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- 页首 end -->
+
+	<!-- 主内容 start -->
+	<div class="container decorate-pic-list">
+		<div class="wrap">
+			<!-- 当前位置 start -->
+			<div class="cur-addr">
+				<span>我的位置：</span>
+				<a href="index.html">首页</a>
+				&nbsp;&gt&nbsp;
+				<a href="decorate_case.html">家装案例</a>
+			</div>
+			<!-- 当前位置 end -->
+
+			<!-- 筛选条件 start -->
+			<div class="filterbox">
+				<div class="filterlist">
+					<span class="type">风格：</span>
+					<div class="selection tab">
+						<a class="tab-items" href="javascript:;">欧式</a>
+						<a class="tab-items" href="javascript:;">中式</a>
+						<a class="tab-items" href="javascript:;">新古典</a>
+						<a class="tab-items" href="javascript:;">美式</a>
+						<a class="tab-items" href="javascript:;">田园式</a>
+					</div>
+					<span class="btn" data-iconup="e010;" data-icondown="e011;"></span>
+				</div>
+				<div class="filterlist">
+					<span class="type">户型：</span>
+					<div class="selection tab">
+						<a class="tab-items" href="javascript:;">小户型</a>
+						<a class="tab-items" href="javascript:;">二居</a>
+						<a class="tab-items" href="javascript:;">三居</a>
+						<a class="tab-items" href="javascript:;">四居</a>
+						<a class="tab-items" href="javascript:;">复式</a>
+					</div>
+					<span class="btn" data-iconup="e010;" data-icondown="e011;"></span>
+				</div>
+				<div class="filterlist">
+					<span class="type">面积：</span>
+					<div class="selection tab">
+						<a class="tab-items" href="javascript:;">60m<sup>2</sup>以下</a>
+						<a class="tab-items" href="javascript:;">60-80m<sup>2</sup></a>
+						<a class="tab-items" href="javascript:;">80-100m<sup>2</sup></a>
+						<a class="tab-items" href="javascript:;">100-120m<sup>2</sup></a>
+						<a class="tab-items" href="javascript:;">120-150m<sup>2</sup></a>
+						<a class="tab-items" href="javascript:;">150m<sup>2</sup>以上</a>
+						<a class="tab-items" href="javascript:;">150m<sup>2</sup>以上</a>
+						<a class="tab-items" href="javascript:;">150m<sup>2</sup>以上</a>
+						<a class="tab-items" href="javascript:;">150m<sup>2</sup>以上</a>
+						<a class="tab-items" href="javascript:;">150m<sup>2</sup>以上</a>
+						<a class="tab-items" href="javascript:;">150m<sup>2</sup>以上</a>
+						<a class="tab-items" href="javascript:;">150m<sup>2</sup>以上</a>
+						<a class="tab-items" href="javascript:;">150m<sup>2</sup>以上</a>
+						<a class="tab-items" href="javascript:;">150m<sup>2</sup>以上</a>
+					</div>
+					<span class="btn" data-iconup="e010;" data-icondown="e011;"></span>
+				</div>
+			</div>
+			<!-- 筛选条件 end -->
+		
+			<!-- 列表 start -->
+			<div class="pic-items">
+				<ul id="decoratePic">
+					<li>
+						<a href="decorate_pic_show.html"><img src="images/pp1.jpg"></a>
+						<div class="title">
+							<a href="#">公寓</a>
+							<span>7张</span>
+						</div>
+					</li>
+					<li>
+						<a href="decorate_pic_show.html"><img src="images/pp2.jpg"></a>
+						<div class="title">
+							<a href="#">公寓</a>
+							<span>9张</span>
+						</div>
+					</li>
+					<li>
+						<a href="decorate_pic_show.html"><img src="images/pp3.jpg"></a>
+						<div class="title">
+							<a href="javascript:;">公寓</a>
+							<span>7张</span>
+						</div>
+					</li>
+					<li>
+						<a href="decorate_pic_show.html"><img src="images/pp4.jpg"></a>
+						<div class="title">
+							<a href="#">公寓</a>
+							<span>7张</span>
+						</div>
+					</li>
+					<li>
+						<a href="decorate_pic_show.html"><img src="images/pp5.jpg"></a>
+						<div class="title">
+							<a href="#">公寓</a>
+							<span>7张</span>
+						</div>
+					</li>
+					<li>
+						<a href="decorate_pic_show.html"><img src="images/pp6.jpg"></a>
+						<div class="title">
+							<a href="#">公寓</a>
+							<span>7张</span>
+						</div>
+					</li>
+					<li>
+						<a href="decorate_pic_show.html"><img src="images/pp7.jpg"></a>
+						<div class="title">
+							<a href="#">公寓</a>
+							<span>7张</span>
+						</div>
+					</li>
+					<li>
+						<a href="decorate_pic_show.html"><img src="images/pp8.jpg"></a>
+						<div class="title">
+							<a href="#">公寓</a>
+							<span>7张</span>
+						</div>
+					</li>
+					<li>
+						<a href="decorate_pic_show.html"><img src="images/pp9.jpg"></a>
+						<div class="title">
+							<a href="#">公寓</a>
+							<span>7张</span>
+						</div>
+					</li>
+					<li>
+						<a href="decorate_pic_show.html"><img src="images/pp7.jpg"></a>
+						<div class="title">
+							<a href="#">公寓</a>
+							<span>7张</span>
+						</div>
+					</li>
+					<li>
+						<a href="decorate_pic_show.html"><img src="images/pp8.jpg"></a>
+						<div class="title">
+							<a href="#">公寓</a>
+							<span>9张</span>
+						</div>
+					</li>
+				
+					<li>
+						<a href="decorate_pic_show.html"><img src="images/pp5.jpg"></a>
+						<div class="title">
+							<a href="#">公寓</a>
+							<span>7张</span>
+						</div>
+					</li>
+					<li>
+						<a href="decorate_pic_show.html"><img src="images/pp6.jpg"></a>
+						<div class="title">
+							<a href="#">公寓</a>
+							<span>7张</span>
+						</div>
+					</li>
+					<li>
+						<a href="decorate_pic_show.html"><img src="images/pp7.jpg"></a>
+						<div class="title">
+							<a href="#">公寓</a>
+							<span>7张</span>
+						</div>
+					</li>
+					<li>
+						<a href="decorate_pic_show.html"><img src="images/pp2.jpg"></a>
+						<div class="title">
+							<a href="#">公寓</a>
+							<span>7张</span>
+						</div>
+					</li>
+					<li>
+						<a href="decorate_pic_show.html"><img src="images/pp6.jpg"></a>
+						<div class="title">
+							<a href="#">公寓</a>
+							<span>7张</span>
+						</div>
+					</li>
+					<li>
+						<a href="decorate_pic_show.html"><img src="images/pp8.jpg"></a>
+						<div class="title">
+							<a href="#">公寓</a>
+							<span>7张</span>
+						</div>
+					</li>
+					<li>
+						<a href="decorate_pic_show.html"><img src="images/pp3.jpg"></a>
+						<div class="title">
+							<a href="#">公寓</a>
+							<span>9张</span>
+						</div>
+					</li>
+					<li>
+						<a href="decorate_pic_show.html"><img src="images/pp5.jpg"></a>
+						<div class="title">
+							<a href="#">公寓</a>
+							<span>7张</span>
+						</div>
+					</li>
+					<li>
+						<a href="decorate_pic_show.html"><img src="images/pp7.jpg"></a>
+						<div class="title">
+							<a href="#">公寓</a>
+							<span>7张</span>
+						</div>
+					</li>
+					<li>
+						<a href="decorate_pic_show.html"><img src="images/pp5.jpg"></a>
+						<div class="title">
+							<a href="#">公寓</a>
+							<span>7张</span>
+						</div>
+					</li>
+					<li>
+						<a href="decorate_pic_show.html"><img src="images/pp8.jpg"></a>
+						<div class="title">
+							<a href="#">公寓</a>
+							<span>7张</span>
+						</div>
+					</li>
+					<li>
+						<a href="decorate_pic_show.html"><img src="images/pp7.jpg"></a>
+						<div class="title">
+							<a href="#">公寓</a>
+							<span>7张</span>
+						</div>
+					</li>
+					<li>
+						<a href="decorate_pic_show.html"><img src="images/pp8.jpg"></a>
+						<div class="title">
+							<a href="#">公寓</a>
+							<span>7张</span>
+						</div>
+					</li>
+					<li>
+						<a href="decorate_pic_show.html"><img src="images/pp2.jpg"></a>
+						<div class="title">
+							<a href="#">公寓</a>
+							<span>7张</span>
+						</div>
+					</li>
+					<li>
+						<a href="decorate_pic_show.html"><img src="images/pp5.jpg"></a>
+						<div class="title">
+							<a href="#">公寓</a>
+							<span>7张</span>
+						</div>
+					</li>
+					<li>
+						<a href="decorate_pic_show.html"><img src="images/pp2.jpg"></a>
+						<div class="title">
+							<a href="#">公寓</a>
+							<span>9张</span>
+						</div>
+					</li>
+					<li>
+						<a href="decorate_pic_show.html"><img src="images/pp6.jpg"></a>
+						<div class="title">
+							<a href="#">公寓</a>
+							<span>7张</span>
+						</div>
+					</li>
+					<li>
+						<a href="decorate_pic_show.html"><img src="images/pp4.jpg"></a>
+						<div class="title">
+							<a href="#">公寓</a>
+							<span>7张</span>
+						</div>
+					</li>
+					<li>
+						<a href="decorate_pic_show.html"><img src="images/pp5.jpg"></a>
+						<div class="title">
+							<a href="#">公寓</a>
+							<span>7张</span>
+						</div>
+					</li>
+					<li>
+						<a href="decorate_pic_show.html"><img src="images/pp5.jpg"></a>
+						<div class="title">
+							<a href="#">公寓</a>
+							<span>7张</span>
+						</div>
+					</li>
+					<li>
+						<a href="decorate_pic_show.html"><img src="images/pp7.jpg"></a>
+						<div class="title">
+							<a href="#">公寓</a>
+							<span>7张</span>
+						</div>
+					</li>
+					<li>
+						<a href="decorate_pic_show.html"><img src="images/pp8.jpg"></a>
+						<div class="title">
+							<a href="#">公寓</a>
+							<span>7张</span>
+						</div>
+					</li>
+					<li>
+						<a href="decorate_pic_show.html"><img src="images/pp9.jpg"></a>
+						<div class="title">
+							<a href="#">公寓</a>
+							<span>7张</span>
+						</div>
+					</li>
+					<li>
+						<a href="decorate_pic_show.html"><img src="images/pp8.jpg"></a>
+						<div class="title">
+							<a href="#">公寓</a>
+							<span>7张</span>
+						</div>
+					</li>
+					<li>
+						<a href="decorate_pic_show.html"><img src="images/pp2.jpg"></a>
+						<div class="title">
+							<a href="#">公寓</a>
+							<span>9张</span>
+						</div>
+					</li>
+					<li>
+						<a href="decorate_pic_show.html"><img src="images/pp3.jpg"></a>
+						<div class="title">
+							<a href="#">公寓</a>
+							<span>7张</span>
+						</div>
+					</li>
+					<li>
+						<a href="decorate_pic_show.html"><img src="images/pp2.jpg"></a>
+						<div class="title">
+							<a href="#">公寓</a>
+							<span>7张</span>
+						</div>
+					</li>
+					<li>
+						<a href="decorate_pic_show.html"><img src="images/pp1.jpg"></a>
+						<div class="title">
+							<a href="#">公寓</a>
+							<span>7张</span>
+						</div>
+					</li>
+					<li>
+						<a href="decorate_pic_show.html"><img src="images/pp6.jpg"></a>
+						<div class="title">
+							<a href="#">公寓</a>
+							<span>7张</span>
+						</div>
+					</li>
+					<li>
+						<a href="decorate_pic_show.html"><img src="images/pp7.jpg"></a>
+						<div class="title">
+							<a href="#">公寓</a>
+							<span>7张</span>
+						</div>
+					</li>
+					<li>
+						<a href="decorate_pic_show.html"><img src="images/pp4.jpg"></a>
+						<div class="title">
+							<a href="#">公寓</a>
+							<span>7张</span>
+						</div>
+					</li>
+					<li>
+						<a href="decorate_pic_show.html"><img src="images/pp5.jpg"></a>
+						<div class="title">
+							<a href="#">公寓</a>
+							<span>7张</span>
+						</div>
+					</li>
+			
+				</ul>
+			</div>
+			<!-- 列表 end -->
+			<!-- 滚动加载更多 start -->
+			<div class="loadmore">滚动加载更多</div>
+			<!-- 滚动加载更多 end -->
+
+		</div>
+	
+	</div>
+	<!-- 主内容 end -->
+
+	<!-- 返回顶部 -->
+	<a id="floatSideBar" href="javascript:;" data-icon="e027">&#xe027;</a>
+	<!-- 返回顶部 -->
+
+	<!-- 页脚 start -->
+	<div class="footer">
+		<div class="foot-middle">
+			<div class="wrap">
+				<div class="foot-mid-l">
+					<h4>以诚为本，送福至家</h4>
+					<p>
+						<a href="javascript:;">关于我们</a>
+						<span>|</span>
+						<a href="javascript:;">关于我们</a>
+						<span>|</span>
+						<a href="javascript:;">关于我们</a>
+						<span>|</span>
+						<a href="javascript:;">关于我们</a>
+						<span>|</span>
+						<a href="javascript:;">关于我们</a>
+					</p>
+					<p>反馈意见：<a href="#">service@qq.com</a></p>
+					<p>客服电话：400-620-6188</p>
+				</div>
+				<div class="foot-mid-m">
+					<h4>热门标签</h4>
+					<p>
+						<a href="#">客厅背景墙</a>
+						<a href="#">客厅背景墙</a>
+						<a href="#">客厅背景墙</a>
+						<a href="#">客厅背景墙</a>
+						<a href="#">客厅背景墙</a>
+						<a href="#">客厅背景墙</a>
+						<a href="#">客厅背景墙</a>
+						<a href="#">客厅背景墙</a>
+						<a href="#">客厅背景墙</a>
+						<a href="#">客厅背景墙</a>
+						<a href="#">客厅背景墙</a>
+						<a href="#">更多...</a>
+					</p>
+				</div>
+				<div class="foot-mid-r">
+					<img src="images/weixin.png" alt=""/>
+					<p>扫码访问爱福窝装修管家</p>
+				</div>
+			</div>
+		</div>
+		<div class="foot-bottom">
+			<div class="wrap">
+				<p>合作网站：
+					<a href="#">手机版</a>
+					<span>|</span>
+					<a href="#">手机版</a>
+					<span>|</span>
+					<a href="#">手机版</a>
+					<span>|</span>
+					<a href="#">手机版</a>
+					<span>|</span>
+					<a href="#">手机版</a>
+					<span>|</span>
+					<a href="#">手机版</a>
+					<span>|</span>
+					<a href="#">手机版</a>
+					<span>|</span>
+					<a href="#">手机版</a>
+					<span>|</span>
+					<a href="#">手机版</a>
+					<span>|</span>
+					<a href="#">手机版</a>
+				</p>
+				<br/>
+				<p>©2015 上海爱福窝云技术有限公司 版权所有 - 沪ICP备08102393号</p>
+			</div>
+		</div>
+	</div>
+	<!-- 页脚 end -->
+	<script src="js/jquery.js" charset="utf-8" ></script>
+	<script src="js/common.js" charset="utf-8" ></script>
+ </body>
+</html>

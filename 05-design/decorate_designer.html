@@ -1,0 +1,582 @@
+<!doctype html>
+<html>
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <title>找设计师</title>
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link type="text/css" href="css/common.css" rel="stylesheet" />
+  <link type="text/css" href="css/styles.css" rel="stylesheet" />
+  
+ </head>
+ <body>
+	<!--  预约咨询弹窗 start  -->
+	<div class="consult-box" id="_consultBox">
+		<div class="middle clfix">
+			<div class="cb-left">
+				<div class="cb-l-top">
+					<img class="upic" src="images/ds1.jpg" />
+					<p class="name">一野室内设计事务所</p>
+					<p class="price">设计费用：100-600元/平米</p>
+				</div>
+				<div class="cb-l-bottom">
+					客服电话<br/>
+					4006-808-509转9999
+				</div>
+			</div>
+			<div class="cb-right">
+				<h4>预约咨询</h4>
+				<p>请您留下相关信息，设计师会主动联系您。</p>
+				<form autocomplete="off">
+					<div class="input-line"><input type="text" name="username" placeholder="联系人"/></div>
+					<div class="input-line"><input type="text" name="phone" placeholder="手机号码"/></div>
+					<div class="input-line addr">
+						<select class="select-1" id="selectProv">
+							<option value="">省/市</option>
+						</select>
+						<select class="select-2" id="selectCity">
+							<option value="">市</option>
+						</select>
+					</div>
+					<div class="input-line">
+						<select class="select-3" id="selectType">
+							<option value="">住宅空间</option>
+							<option value="">餐饮空间</option>
+							<option value="">商业展示</option>
+							<option value="">商业展示</option>
+							<option value="">商业展示</option>
+							<option value="">商业展示</option>
+							<option value="">商业展示</option>
+							<option value="">北京</option>
+							<option value="">上海</option>
+						</select>
+					</div>
+					<div class="input-line area"><input type="text" name="area" placeholder="面积"/></div>
+					<div class="input-line"><input type="text" name="remark" placeholder="备注（选填）"/></div>
+					<button>立即提交</button>
+				</form>
+			</div>
+
+			<span class="close" data-close="consultBox" >&#xe01a;</span>
+		</div>
+	</div>
+	<!--  预约咨询弹窗 end  -->
+
+	<!--  城市选择 start  -->
+	<div class="select-city" id="_selectArea">
+		<span class="title">热门城市</span>
+		<p>
+			<a href="javascript:;">北京</a>
+			<a href="javascript:;">上海</a>
+			<a href="javascript:;">广州</a>
+			<a href="javascript:;">深圳</a>
+			<a href="javascript:;">杭州</a>
+			<a href="javascript:;">重庆</a>
+			<a href="javascript:;">重庆</a>
+			<a href="javascript:;">重庆</a>
+			<a href="javascript:;">重庆</a>
+			<a href="javascript:;">杭州</a>
+			<a href="javascript:;">杭州</a>
+			<a href="javascript:;">杭州</a>
+			<a href="javascript:;">杭州</a>
+			<a href="javascript:;">杭州</a>
+			<a href="javascript:;">杭州</a>
+			<a href="javascript:;">杭州</a>
+			<a href="javascript:;">杭州</a>
+			<a href="javascript:;">杭州</a>
+		</p>
+		<div class="selection">
+			<span class="title">按省份选择</span>
+			<select class="select-1" id="prov">
+				<option value="">省/市</option>
+			</select>
+			<select class="select-2" id="city">
+				<option value="">市</option>
+			</select>
+			<a class="btn" href="javascript:;">确定</a>
+		</div>
+		<span class="close" data-close="selectArea" >&#xe01a;</span>
+	</div>
+	<!--  城市选择 end  -->
+
+	<!-- 页首 start -->
+	<div class="header">
+		<div class="topbar">
+			<div class="wrap">
+				<div class="logbox">
+					<a href="login.html">登录</a>
+					<a href="regist.html">注册</a>
+					咨询热线：400-620-6188
+				</div>
+
+				<a href="#">首页</a>
+				<a href="#">设计</a>
+				<a href="#">商务合作</a>
+				<a href="#">家居商城</a>
+			</div>
+		</div>
+
+		<div class="navbar">
+			<div class="wrap">
+				<h1><a href="index.html">LOGO</a></h1>
+				<ul class="nav">
+					<li>
+						<a href="index.html">首页</a>
+					</li>
+					<li>
+						<a href="decorate_case.html">设计案例</a>
+						<div class="submenu">
+							<a href="#">家装案例</a>
+							<a href="#">工装案例</a>
+						</div>
+					</li>
+					<li>
+						<a href="decorate_pic.html">装修图库</a>
+						<div class="submenu">
+							<a href="#">家装案例</a>
+							<a href="#">工装案例</a>
+						</div>
+					</li>
+					<li>
+						<a href="decorate_learn.html">学装修</a>
+					</li>
+					<li>
+						<a href="decorate_ask.html">有问必答</a>
+					</li>
+					<li class="cur">
+						<a href="decorate_designer.html">找设计师</a>
+					</li>
+					<li>
+						<a href="shop.html">逛商城</a>
+					</li>
+				</ul>
+				<div class="search clfix">
+					<form autocomplete="off">
+						<input type="text" name="keyword" placeholder="请输入关键词" /><button type="submit">&#xe012;</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- 页首 end -->
+
+	<!-- 主内容 start -->
+	<div class="container case design">
+		<div class="wrap">
+			<!-- 当前位置 start -->
+			<div class="cur-addr">
+				<span>我的位置：</span>
+				<a href="index.html">首页</a>
+				&nbsp;&gt;&nbsp;
+				<a href="decorate_designer.html">找设计师</a>
+			</div>
+			<!-- 当前位置 end -->
+
+			<!-- 筛选条件 start -->
+			<div class="filterbox">
+				<div class="filterlist">
+					<span class="type">城市：</span>
+					<div class="selection tab">
+						<a class="tab-items" href="javascript:;">北京</a>
+						<a class="tab-items" href="javascript:;">上海</a>
+						<a class="tab-items" href="javascript:;">广州</a>
+						<a class="tab-items" href="javascript:;">深圳</a>
+						<a class="tab-items" href="javascript:;">南京</a>
+						<a class="tab-items" href="javascript:;">天津</a>
+						<a class="tab-items" href="javascript:;">武汉</a>
+						<a class="tab-items" href="javascript:;">成都</a>
+						<a class="other-city" href="javascript:;" data-modal-frame="selectArea">【其他城市】</a>
+
+					</div>
+					<span class="btn" data-iconup="e010;" data-icondown="e011;"></span>
+				</div>
+				<div class="filterlist">
+					<span class="type">空间：</span>
+					<div class="selection tab">
+						<a class="tab-items" href="javascript:;">家居住宅</a>
+						<a class="tab-items" href="javascript:;">别墅豪宅</a>
+						<a class="tab-items" href="javascript:;">办公室</a>
+						<a class="tab-items" href="javascript:;">酒店</a>
+						<a class="tab-items" href="javascript:;">餐厅</a>
+						<a class="tab-items" href="javascript:;">咖啡厅</a>
+						<a class="tab-items" href="javascript:;">酒吧KTV</a>
+						<a class="tab-items" href="javascript:;">商业展示</a>
+					</div>
+					<span class="btn" data-iconup="e010;" data-icondown="e011;"></span>
+				</div>
+				<div class="filterlist">
+					<span class="type">收费：</span>
+					<div class="selection tab">
+						<a class="tab-items" href="javascript:;">60元/m<sup>2</sup>以下</a>
+						<a class="tab-items" href="javascript:;">60-100元/m<sup>2</sup></a>
+						<a class="tab-items" href="javascript:;">100-150元/m<sup>2</sup></a>
+						<a class="tab-items" href="javascript:;">150-200元/m<sup>2</sup></a>
+						<a class="tab-items" href="javascript:;">200-250元/m<sup>2</sup></a>
+						<a class="tab-items" href="javascript:;">250-300元/m<sup>2</sup></a>
+						<a class="tab-items" href="javascript:;">300元/m<sup>2</sup>以上</a>
+						<a class="tab-items" href="javascript:;">300元/m<sup>2</sup>以上</a>
+						<a class="tab-items" href="javascript:;">300元/m<sup>2</sup>以上</a>
+						<a class="tab-items" href="javascript:;">300元/m<sup>2</sup>以上</a>
+						<a class="tab-items" href="javascript:;">300元/m<sup>2</sup>以上</a>
+						<a class="tab-items" href="javascript:;">300元/m<sup>2</sup>以上</a>
+						<a class="tab-items" href="javascript:;">300元/m<sup>2</sup>以上</a>
+						<a class="tab-items" href="javascript:;">300元/m<sup>2</sup>以上</a>
+					</div>
+					<span class="btn" data-iconup="e010;" data-icondown="e011;"></span>
+				</div>
+			</div>
+			<!-- 筛选条件 end -->
+		
+			<!-- 列表 start -->
+			<div class="designer-box">
+				<div class="outbox">
+					<div class="order tab" id="fixedBar">
+						<a class="tab-items cur" href="javascript:;">默认排序</a>
+						<a class="tab-items" href="javascript:;">预约数</a>
+						<a class="tab-items" href="javascript:;">签单数</a>
+					</div>
+				</div>
+				<div class="main-items">
+					<!--  大牌设计师 start  -->
+					<div class="designer-hot">
+						<span class="title">大牌设计师</span>
+						<div class="inner" id="designerHot">
+							<ul>
+								<li>
+									<img src="images/ds1.jpg" />
+									<span>大圣</span>
+									<a class="cover-link" href="decorate_designer_info.html"></a>
+								</li>
+								<li>
+									<img src="images/ds1.jpg" />
+									<span>大圣</span>
+									<a class="cover-link" href="decorate_designer_info.html"></a>
+								</li>
+								<li>
+									<img src="images/ds1.jpg" />
+									<span>大圣</span>
+									<a class="cover-link" href="decorate_designer_info.html"></a>
+								</li>
+								<li>
+									<img src="images/ds1.jpg" />
+									<span>大圣</span>
+									<a class="cover-link" href="decorate_designer_info.html"></a>
+								</li>
+								<li>
+									<img src="images/ds1.jpg" />
+									<span>大圣</span>
+									<a class="cover-link" href="decorate_designer_info.html"></a>
+								</li>
+								<li>
+									<img src="images/ds1.jpg" />
+									<span>大圣</span>
+									<a class="cover-link" href="decorate_designer_info.html"></a>
+								</li>
+								<li>
+									<img src="images/ds1.jpg" />
+									<span>大圣</span>
+									<a class="cover-link" href="decorate_designer_info.html"></a>
+								</li>
+								<li>
+									<img src="images/ds1.jpg" />
+									<span>大圣</span>
+									<a class="cover-link" href="decorate_designer_info.html"></a>
+								</li>
+								<li>
+									<img src="images/ds1.jpg" />
+									<span>大圣</span>
+									<a class="cover-link" href="decorate_designer_info.html"></a>
+								</li>
+								<li>
+									<img src="images/ds1.jpg" />
+									<span>大圣</span>
+									<a class="cover-link" href="decorate_designer_info.html"></a>
+								</li>
+								<li>
+									<img src="images/ds1.jpg" />
+									<span>大圣</span>
+									<a class="cover-link" href="decorate_designer_info.html"></a>
+								</li>
+								<li>
+									<img src="images/ds1.jpg" />
+									<span>大圣</span>
+									<a class="cover-link" href="decorate_designer_info.html"></a>
+								</li>
+								<li>
+									<img src="images/ds1.jpg" />
+									<span>大圣</span>
+									<a class="cover-link" href="decorate_designer_info.html"></a>
+								</li>
+							</ul>
+						</div>
+						<i class="btn-left">&#xe013;</i>
+						<i class="btn-right">&#xe014;</i>
+					</div>
+
+					<!--  大牌设计师 end  -->
+
+					<!--  设计师列表 start  -->
+					<div class="designer-item info-obj">
+						<dl>
+							<dt>
+								<a href="decorate_designer_info.html">
+									<img class="upic" src="images/bs3.jpg" />
+								</a>
+							</dt>
+							<dd>
+								<h3>
+									<a class="name" href="decorate_designer_info.html">一野室内设计事务所</a>
+									<span style="background:url(images/blog_icon.png) -54px 0 no-repeat"></span>
+									<span style="background:url(images/blog_icon.png) no-repeat"></span>
+								</h3>
+								<p>所在城市<span>广东 深圳</span>作品<span>17套</span></p>
+								<p>擅长空间 <span>办公室,会所,别墅豪宅,商业展示，家居住宅</span></p>
+								<p class="intro">个人简介 <span>大悟墨凡创始人/大悟墨凡致力为您打造，有机化个性化的卓越空间解决方案，让工程得以从刻板且时常粗线条的格式中解脱。空间、功能、材质、文脉在不同的诉求下</span></p>
+								<p>预约数<em>31</em>签单<em>12</em></p>
+								<div class="item-r">
+									<span><em class="price">100-600</em>元/m<sup>2</sup></span>
+									<button data-modal-frame="consultBox">预约咨询</button>
+								</div>
+							</dd>
+						</dl>
+						<div class="imgbox">
+							<a href="decorate_designer_info.html">
+								<img src="images/ds2.jpg" />
+							</a>
+							<a href="decorate_designer_info.html">
+								<img src="images/ds2.jpg" />
+							</a>
+							<a href="decorate_designer_info.html">
+								<img src="images/ds2.jpg" />
+							</a>
+							<a href="decorate_designer_info.html">
+								<img src="images/ds2.jpg" />
+							</a>
+							<a href="decorate_designer_info.html">
+								<img src="images/ds2.jpg" />
+							</a>
+						</div>
+					</div>
+					<div class="designer-item info-obj">
+						<dl>
+							<dt>
+								<a href="decorate_designer_info.html">
+									<img class="upic" src="images/ds1.jpg" />
+								</a>
+							</dt>
+							<dd>
+								<h3>
+									<a class="name" href="decorate_designer_info.html">尚谷国际</a>
+									<span style="background:url(images/blog_icon.png) -54px 0 no-repeat"></span>
+									<span style="background:url(images/blog_icon.png) no-repeat"></span>
+								</h3>
+								<p>所在城市<span>广东 深圳</span>作品<span>17套</span></p>
+								<p>擅长空间 <span>办公室,会所,别墅豪宅,商业展示，家居住宅</span></p>
+								<p class="intro">个人简介 <span>大悟墨凡创始人/大悟墨凡致力为您打造，有机化个性化的卓越空间解决方案，让工程得以从刻板且时常粗线条的格式中解脱。空间、功能、材质、文脉在不同的诉求下</span></p>
+								<p>预约数<em>31</em>签单<em>12</em></p>
+								<div class="item-r">
+									<span><em class="price">200-500</em>元/m<sup>2</sup></span>
+									<button data-modal-frame="consultBox">预约咨询</button>
+								</div>
+							</dd>
+						</dl>
+						<div class="imgbox">
+							<a href="decorate_designer_info.html">
+								<img src="images/ds2.jpg" />
+							</a>
+							<a href="decorate_designer_info.html">
+								<img src="images/ds2.jpg" />
+							</a>
+							<a href="decorate_designer_info.html">
+								<img src="images/ds2.jpg" />
+							</a>
+							<a href="decorate_designer_info.html">
+								<img src="images/ds2.jpg" />
+							</a>
+							<a href="decorate_designer_info.html">
+								<img src="images/ds2.jpg" />
+							</a>
+						</div>
+					</div>
+					<div class="designer-item info-obj">
+						<dl>
+							<dt>
+								<a href="decorate_designer_info.html">
+									<img class="upic" src="images/ds3.jpg" />
+								</a>
+							</dt>
+							<dd>
+								<h3>
+									<a class="name" href="decorate_designer_info.html">大墅尚品—由伟壮设计</a>
+									<span style="background:url(images/blog_icon.png) -54px 0 no-repeat"></span>
+									<span style="background:url(images/blog_icon.png) no-repeat"></span>
+								</h3>
+								<p>所在城市<span>广东 深圳</span>作品<span>17套</span></p>
+								<p>擅长空间 <span>办公室,会所,别墅豪宅,商业展示，家居住宅</span></p>
+								<p class="intro">个人简介 <span>大悟墨凡创始人/大悟墨凡致力为您打造，有机化个性化的卓越空间解决方案，让工程得以从刻板且时常粗线条的格式中解脱。空间、功能、材质、文脉在不同的诉求下</span></p>
+								<p>预约数<em>31</em>签单<em>12</em></p>
+								<div class="item-r">
+									<span><em class="price">100-500</em>元/m<sup>2</sup></span>
+									<button data-modal-frame="consultBox">预约咨询</button>
+								</div>
+							</dd>
+						</dl>
+						<div class="imgbox">
+							<a href="decorate_designer_info.html">
+								<img src="images/ds2.jpg" />
+							</a>
+							<a href="decorate_designer_info.html">
+								<img src="images/ds2.jpg" />
+							</a>
+							<a href="decorate_designer_info.html">
+								<img src="images/ds2.jpg" />
+							</a>
+							<a href="decorate_designer_info.html">
+								<img src="images/ds2.jpg" />
+							</a>
+							<a href="decorate_designer_info.html">
+								<img src="images/ds2.jpg" />
+							</a>
+						</div>
+					</div>
+					<div class="designer-item info-obj">
+						<dl>
+							<dt>
+								<a href="decorate_designer_info.html">
+									<img class="upic" src="images/ds1.jpg" />
+								</a>
+							</dt>
+							<dd>
+								<h3>
+									<a class="name" href="decorate_designer_info.html">周晓安</a>
+									<span style="background:url(images/blog_icon.png) -54px 0 no-repeat"></span>
+									<span style="background:url(images/blog_icon.png) no-repeat"></span>
+								</h3>
+								<p>所在城市<span>广东 深圳</span>作品<span>17套</span></p>
+								<p>擅长空间 <span>办公室,会所,别墅豪宅,商业展示，家居住宅</span></p>
+								<p class="intro">个人简介 <span>大悟墨凡创始人/大悟墨凡致力为您打造，有机化个性化的卓越空间解决方案，让工程得以从刻板且时常粗线条的格式中解脱。空间、功能、材质、文脉在不同的诉求下</span></p>
+								<p>预约数<em>31</em>签单<em>12</em></p>
+								<div class="item-r">
+									<span><em class="price">100-300</em>元/m<sup>2</sup></span>
+									<button data-modal-frame="consultBox">预约咨询</button>
+								</div>
+							</dd>
+						</dl>
+						<div class="imgbox">
+							<a href="decorate_designer_info.html">
+								<img src="images/ds2.jpg" />
+							</a>
+							<a href="decorate_designer_info.html">
+								<img src="images/ds2.jpg" />
+							</a>
+							<a href="decorate_designer_info.html">
+								<img src="images/ds2.jpg" />
+							</a>
+							<a href="decorate_designer_info.html">
+								<img src="images/ds2.jpg" />
+							</a>
+							<a href="decorate_designer_info.html">
+								<img src="images/ds2.jpg" />
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- 列表 end -->
+			<!-- 滚动加载更多 start -->
+			<div class="loadmore">滚动加载更多</div>
+			<!-- 滚动加载更多 end -->
+
+		</div>
+	
+	</div>
+	<!-- 主内容 end -->
+
+	<!-- 返回顶部 -->
+	<a id="floatSideBar" href="javascript:;" data-icon="e027">&#xe027;</a>
+	<!-- 返回顶部 -->
+
+	<!-- 页脚 start -->
+	<div class="footer">
+		<div class="foot-middle">
+			<div class="wrap">
+				<div class="foot-mid-l">
+					<h4>以诚为本，送福至家</h4>
+					<p>
+						<a href="javascript:;">关于我们</a>
+						<span>|</span>
+						<a href="javascript:;">关于我们</a>
+						<span>|</span>
+						<a href="javascript:;">关于我们</a>
+						<span>|</span>
+						<a href="javascript:;">关于我们</a>
+						<span>|</span>
+						<a href="javascript:;">关于我们</a>
+					</p>
+					<p>反馈意见：<a href="#">service@qq.com</a></p>
+					<p>客服电话：400-620-6188</p>
+				</div>
+				<div class="foot-mid-m">
+					<h4>热门标签</h4>
+					<p>
+						<a href="#">客厅背景墙</a>
+						<a href="#">客厅背景墙</a>
+						<a href="#">客厅背景墙</a>
+						<a href="#">客厅背景墙</a>
+						<a href="#">客厅背景墙</a>
+						<a href="#">客厅背景墙</a>
+						<a href="#">客厅背景墙</a>
+						<a href="#">客厅背景墙</a>
+						<a href="#">客厅背景墙</a>
+						<a href="#">客厅背景墙</a>
+						<a href="#">客厅背景墙</a>
+						<a href="#">更多...</a>
+					</p>
+				</div>
+				<div class="foot-mid-r">
+					<img src="images/weixin.png" alt=""/>
+					<p>扫码访问爱福窝装修管家</p>
+				</div>
+			</div>
+		</div>
+		<div class="foot-bottom">
+			<div class="wrap">
+				<p>合作网站：
+					<a href="#">手机版</a>
+					<span>|</span>
+					<a href="#">手机版</a>
+					<span>|</span>
+					<a href="#">手机版</a>
+					<span>|</span>
+					<a href="#">手机版</a>
+					<span>|</span>
+					<a href="#">手机版</a>
+					<span>|</span>
+					<a href="#">手机版</a>
+					<span>|</span>
+					<a href="#">手机版</a>
+					<span>|</span>
+					<a href="#">手机版</a>
+					<span>|</span>
+					<a href="#">手机版</a>
+					<span>|</span>
+					<a href="#">手机版</a>
+				</p>
+				<br/>
+				<p>©2015 上海爱福窝云技术有限公司 版权所有 - 沪ICP备08102393号</p>
+			</div>
+		</div>
+	</div>
+	<!-- 页脚 end -->
+
+	<script src="js/jquery.js" charset="utf-8" ></script>
+	<script src="js/common.js" charset="utf-8" ></script>
+	<script src="js/areaData.js" charset="utf-8" ></script>
+	<script>
+	//获取城市
+	getArea( 'selectProv', 'selectCity' );
+	getArea( 'prov', 'city' );
+	</script>
+ </body>
+</html>

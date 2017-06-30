@@ -1,0 +1,470 @@
+<!doctype html>
+<html>
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <title>找设计师</title>
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link type="text/css" href="css/common.css" rel="stylesheet" />
+  <link type="text/css" href="css/styles.css" rel="stylesheet" />
+  
+ </head>
+ <body>
+	<!--  预约咨询弹窗 start  -->
+	<div class="consult-box" id="_consultBox">
+		<div class="middle clfix">
+			<div class="cb-left">
+				<div class="cb-l-top">
+					<img class="upic" src="images/ds1.jpg" />
+					<p class="name">一野室内设计事务所</p>
+					<p class="price">设计费用：100-600元/平米</p>
+				</div>
+				<div class="cb-l-bottom">
+					客服电话<br/>
+					4006-808-509转9999
+				</div>
+			</div>
+			<div class="cb-right">
+				<h4>预约咨询</h4>
+				<p>请您留下相关信息，设计师会主动联系您。</p>
+				<form autocomplete="off">
+					<div class="input-line"><input type="text" name="username" placeholder="联系人"/></div>
+					<div class="input-line"><input type="text" name="phone" placeholder="手机号码"/></div>
+					<div class="input-line addr">
+						<select class="select-1" id="selectProv">
+							<option value="">省/市</option>
+						</select>
+						<select class="select-2" id="selectCity">
+							<option value="">市</option>
+						</select>
+					</div>
+					<div class="input-line">
+						<select class="select-3" id="selectType">
+							<option value="">住宅空间</option>
+							<option value="">餐饮空间</option>
+							<option value="">商业展示</option>
+							<option value="">商业展示</option>
+							<option value="">商业展示</option>
+							<option value="">商业展示</option>
+							<option value="">商业展示</option>
+							<option value="">北京</option>
+							<option value="">上海</option>
+						</select>
+					</div>
+					<div class="input-line area"><input type="text" name="area" placeholder="面积"/></div>
+					<div class="input-line"><input type="text" name="remark" placeholder="备注（选填）"/></div>
+					<button>立即提交</button>
+				</form>
+			</div>
+
+			<span class="close" data-close="consultBox" >&#xe01a;</span>
+		</div>
+	</div>
+	<!--  预约咨询弹窗 end  -->
+
+	<!-- 页首 start -->
+	<div class="header">
+		<div class="topbar">
+			<div class="wrap">
+				<div class="logbox">
+					<a href="login.html">登录</a>
+					<a href="regist.html">注册</a>
+					咨询热线：400-620-6188
+				</div>
+
+				<a href="index.html">首页</a>
+				<a href="#">设计</a>
+				<a href="#">商务合作</a>
+				<a href="#">家居商城</a>
+			</div>
+		</div>
+	</div>
+	<!-- 页首 end -->
+	
+	<!-- 设计师头像 start -->
+	<div class="designer-header" style="background: url(images/info.jpg) #fff center center no-repeat">
+		<div class="wrap">
+			<span class="imgbox">
+				<img class="upic" src="images/ds1.jpg" />
+				<i style="top: 20px; right: -5px; background: url(images/icon.gif) -54px 0 no-repeat"></i>
+				<i style="top: 50px; right: -20px;background: url(images/icon.gif) no-repeat"></i>
+			</span>
+			<h2 class="name">谷尚设计</h2>
+			<p class="intro">坚持空间与人的和谐共处，拒绝一切虚伪与浮夸的装饰。</p>
+			
+			<p class="addr"><a href="javascript:;">广东 深圳</a></p>
+			<!-- 若已关注 添加class liked 反之则删掉liked -->
+			<a class="like" id="addLike" rel="0" href="javascript:;">关注</a>
+		</div>
+	</div>
+	<!-- 设计师头像 end -->
+
+	<div class="designer-con">
+		<!-- 导航栏 start -->
+		<div class="topnav">
+			<div class="fixed" id="fixedBar">
+				<div class="wrap">
+					<ul class="tab">
+						<li class="tab-items cur" data-jump="designerCase">设计作品</li>
+						<li class="tab-items" data-jump="designerRecord">成交记录</li>
+						<li class="tab-items" data-jump="designerAbout">关于TA</li>
+					</ul>
+					<div class="consult-btn">
+						<span class="money"><em class="price">200-500</em> 元/m<sup>2</sup></span>
+						<div class="contact">
+							<button class="consult" data-modal-frame="consultBox">预约咨询（31）</button>
+							<button class="phone" title="找设计师？一个电话搞定！">4006-808-509 转 9999</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- 导航栏 end -->
+		
+		<!-- 设计师主要信息 start -->
+		<div class="wrap">
+			<div class="designer-info" id="_designerCase">
+				<div class="tab">
+					<a class="tab-items cur" href="javascript:;" data-target="allCase">全部(17)</a>
+					<a class="tab-items" href="javascript:;" data-target="caseType1">家装(12)</a>
+					<a class="tab-items" href="javascript:;" data-target="caseType2">工装(5)</a>
+				</div>
+
+				<!-- 作品案例 start -->
+				<div class="designer-case">
+					<ul>
+						<li>
+							<div class="clfix">
+								<div class="type fr">
+									210m<sup>2</sup>
+									<span class="spline">|</span>
+									现代
+									<span class="spline">|</span>
+									13 图
+									<span class="spline">|</span>
+									23607 浏览
+								</div>
+								<a class="title" href="decorate_case_detial.html">仁发汇简约风格私宅设计实景图案例<span class="recm">推荐</span></a>
+							</div>
+							<p class="intro">深圳兰乔圣菲别墅</p>
+							<div class="imgbox">
+								<a href="decorate_case_detial.html"><img src="images/ds2.jpg" /></a>
+								<a href="decorate_case_detial.html"><img src="images/ds2.jpg" /></a>
+								<a href="decorate_case_detial.html"><img src="images/ds2.jpg" /></a>
+							</div>
+						</li>
+						<li>
+							<div class="clfix">
+								<div class="type fr">
+									210m<sup>2</sup>
+									<span class="spline">|</span>
+									现代
+									<span class="spline">|</span>
+									13 图
+									<span class="spline">|</span>
+									23607 浏览
+								</div>
+								<a class="title" href="decorate_case_detial.html">仁发汇简约风格私宅设计实景图案例<span class="recm">推荐</span></a>
+							</div>
+							<p class="intro">深圳兰乔圣菲别墅</p>
+							<div class="imgbox">
+								<a href="decorate_case_detial.html"><img src="images/ds2.jpg" /></a>
+								<a href="decorate_case_detial.html"><img src="images/ds2.jpg" /></a>
+								<a href="decorate_case_detial.html"><img src="images/ds2.jpg" /></a>
+							</div>
+						</li>
+						<li>
+							<div class="clfix">
+								<div class="type fr">
+									210m<sup>2</sup>
+									<span class="spline">|</span>
+									现代
+									<span class="spline">|</span>
+									13 图
+									<span class="spline">|</span>
+									23607 浏览
+								</div>
+								<a class="title" href="decorate_case_detial.html">仁发汇简约风格私宅设计实景图案例<span class="recm">推荐</span></a>
+							</div>
+							<p class="intro">深圳兰乔圣菲别墅</p>
+							<div class="imgbox">
+								<a href="decorate_case_detial.html"><img src="images/ds2.jpg" /></a>
+								<a href="decorate_case_detial.html"><img src="images/ds2.jpg" /></a>
+								<a href="decorate_case_detial.html"><img src="images/ds2.jpg" /></a>
+							</div>
+						</li>
+						<li>
+							<div class="clfix">
+								<div class="type fr">
+									210m<sup>2</sup>
+									<span class="spline">|</span>
+									现代
+									<span class="spline">|</span>
+									13 图
+									<span class="spline">|</span>
+									23607 浏览
+								</div>
+								<a class="title" href="decorate_case_detial.html">仁发汇简约风格私宅设计实景图案例<span class="recm">推荐</span></a>
+							</div>
+							<p class="intro">深圳兰乔圣菲别墅</p>
+							<div class="imgbox">
+								<a href="decorate_case_detial.html"><img src="images/ds2.jpg" /></a>
+								<a href="decorate_case_detial.html"><img src="images/ds2.jpg" /></a>
+								<a href="decorate_case_detial.html"><img src="images/ds2.jpg" /></a>
+							</div>
+						</li>
+						<li>
+							<div class="clfix">
+								<div class="type fr">
+									210m<sup>2</sup>
+									<span class="spline">|</span>
+									现代
+									<span class="spline">|</span>
+									13 图
+									<span class="spline">|</span>
+									23607 浏览
+								</div>
+								<a class="title" href="decorate_case_detial.html">仁发汇简约风格私宅设计实景图案例<span class="recm">推荐</span></a>
+							</div>
+							<p class="intro">深圳兰乔圣菲别墅</p>
+							<div class="imgbox">
+								<a href="decorate_case_detial.html"><img src="images/ds2.jpg" /></a>
+								<a href="decorate_case_detial.html"><img src="images/ds2.jpg" /></a>
+								<a href="decorate_case_detial.html"><img src="images/ds2.jpg" /></a>
+							</div>
+						</li>
+					</ul>
+					<div class="page">
+						<a class="first" href="javascript:;">首页</a>
+						<a class="prev" href="javascript:;">上一页</a>
+						<a class="pages cur" href="javascript:;">1</a>
+						<a class="pages" href="javascript:;">2</a>
+						<a class="pages" href="javascript:;">3</a>
+						<a class="pages" href="javascript:;">4</a>
+						<a class="pages" href="javascript:;">5</a>
+						<a class="prev" href="javascript:;">下一页</a>
+						<a class="last" href="javascript:;">尾页</a>
+					</div>
+				</div>
+				<!-- 作品案例 end -->
+				
+				<!-- 交易记录 start -->
+				<div class="designer-record" id="_designerRecord">
+					<h2>成交记录(7)</h2>
+					<table>
+						<tr>
+							<th class="name">项目名称</th>
+							<th class="time">交易时间</th>
+							<th class="status">交易状态</th>
+						</tr>
+						<tr>
+							<td>江西玉山别墅室内设计</td>
+							<td>2016-05-06</td>
+							<td>
+								<span class="done"></span>
+								<span class="doing">进行中</span>
+							</td>
+						</tr>
+						<tr>
+							<td>内蒙孔小姐雅居</td>
+							<td>2015-05-06</td>
+							<td>
+								<span class="done"></span>
+								<span class="doing">进行中</span>
+							</td>
+						</tr>
+						<tr>
+							<td>湖南怡景苑复式楼</td>
+							<td>2014-05-06</td>
+							<td>
+								<span class="done">已完成</span>
+								<span class="doing"></span>
+							</td>
+						</tr>
+						<tr>
+							<td>河北休闲吧</td>
+							<td>2012-03-28</td>
+							<td>
+								<span class="done">已完成</span>
+								<span class="doing"></span>
+							</td>
+						</tr>
+						<tr>
+							<td>河北休闲吧</td>
+							<td>2012-03-28</td>
+							<td>
+								<span class="done">已完成</span>
+								<span class="doing"></span>
+							</td>
+						</tr>
+					</table>
+					<div class="page">
+						<a class="first" href="javascript:;">首页</a>
+						<a class="prev" href="javascript:;">上一页</a>
+						<a class="pages cur" href="javascript:;">1</a>
+						<a class="pages" href="javascript:;">2</a>
+						<a class="pages" href="javascript:;">3</a>
+						<a class="pages" href="javascript:;">4</a>
+						<a class="pages" href="javascript:;">5</a>
+						<a class="prev" href="javascript:;">下一页</a>
+						<a class="last" href="javascript:;">尾页</a>
+					</div>
+				</div>
+				<!-- 交易记录 end -->
+
+
+				<!-- 关于TA start -->
+				<div class="designer-about" id="_designerAbout">
+					<h2>关于TA</h2>
+					<div class="info clfix">
+						<div class="info-l">
+							<img src="images/ds1.jpg" />
+							<ul>
+								<li><em>451</em>人气</li>
+								<li><em>151</em>粉丝</li>
+							</ul>
+						</div>
+						<div class="info-r">
+							<h3>您好！我是大圣</h3>
+							<div class="sim-info">
+								<p>设计经验：八年以上</p>
+								<p>擅长空间：家居住宅,酒店,别墅豪宅,餐厅,会所,咖啡厅</p>
+								<p>所在地：广东 佛山</p>
+							</div>
+							<div class="sim-intro">
+								<span>个人简介</span>
+								<p>设计不是浮于表面的形式，而是以人为核心，以健康舒适为导向的身、心、灵的升华。坚持去繁从简的理念，不为设计而设计，保持人与自然之间的和谐稳定。</p>
+							</div>
+							<div class="award">
+								<span>证书与奖励</span>
+								<p>2015年，第13届现代装饰传媒奖“年度精英设计师”大奖 <br/>
+									2014年，受邀作为《现代装饰》在台湾举办“设计中的东方美学”论坛主讲嘉宾<br/>
+									2014年，受邀参与中央电视台财经频道《交换空间》嘉宾设计师。
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- 关于TA end -->
+				
+			</div>
+
+
+			<!-- 其他设计师 start -->
+		<div class="other">
+			<h4>同城室内设计师</h4>
+			<div class="link">
+				<a href="javascritp:;">张晓飞设计</a>
+				<a href="javascritp:;">张晓飞设计</a>
+				<a href="javascritp:;">张晓飞设计</a>
+				<a href="javascritp:;">张晓飞设计</a>
+				<a href="javascritp:;">张晓飞设计</a>
+				<a href="javascritp:;">张晓飞设计</a>
+				<a href="javascritp:;">张晓飞设计</a>
+				<a href="javascritp:;">张晓飞设计</a>
+				<a href="javascritp:;">张晓飞设计</a>
+				<a href="javascritp:;">张晓飞设计</a>
+				<a href="javascritp:;">张晓飞设计</a>
+				<a href="javascritp:;">张晓飞设计</a>
+				<a href="javascritp:;">张晓飞设计</a>
+				<a href="javascritp:;">张晓飞设计</a>
+				<a href="javascritp:;">张晓飞设计</a>
+				<a href="javascritp:;">张晓飞设计</a>
+				<a href="javascritp:;">张晓飞设计</a>
+				<a href="javascritp:;">张晓飞设计</a>
+				<a href="javascritp:;">张晓飞设计</a>
+			</div>
+		</div>
+		<!-- 其他设计师 end -->
+		</div>
+		<!-- 设计师主要信息 end -->
+	</div>
+
+	<!-- 返回顶部 -->
+	<a id="floatSideBar" href="javascript:;" data-icon="e027">&#xe027;</a>
+	<!-- 返回顶部 -->
+
+	<!-- 页脚 start -->
+	<div class="footer">
+		<div class="foot-middle">
+			<div class="wrap">
+				<div class="foot-mid-l">
+					<h4>以诚为本，送福至家</h4>
+					<p>
+						<a href="javascript:;">关于我们</a>
+						<span>|</span>
+						<a href="javascript:;">关于我们</a>
+						<span>|</span>
+						<a href="javascript:;">关于我们</a>
+						<span>|</span>
+						<a href="javascript:;">关于我们</a>
+						<span>|</span>
+						<a href="javascript:;">关于我们</a>
+					</p>
+					<p>反馈意见：<a href="#">service@qq.com</a></p>
+					<p>客服电话：400-620-6188</p>
+				</div>
+				<div class="foot-mid-m">
+					<h4>热门标签</h4>
+					<p>
+						<a href="#">客厅背景墙</a>
+						<a href="#">客厅背景墙</a>
+						<a href="#">客厅背景墙</a>
+						<a href="#">客厅背景墙</a>
+						<a href="#">客厅背景墙</a>
+						<a href="#">客厅背景墙</a>
+						<a href="#">客厅背景墙</a>
+						<a href="#">客厅背景墙</a>
+						<a href="#">客厅背景墙</a>
+						<a href="#">客厅背景墙</a>
+						<a href="#">客厅背景墙</a>
+						<a href="#">更多...</a>
+					</p>
+				</div>
+				<div class="foot-mid-r">
+					<img src="images/weixin.png" alt=""/>
+					<p>扫码访问爱福窝装修管家</p>
+				</div>
+			</div>
+		</div>
+		<div class="foot-bottom">
+			<div class="wrap">
+				<p>合作网站：
+					<a href="#">手机版</a>
+					<span>|</span>
+					<a href="#">手机版</a>
+					<span>|</span>
+					<a href="#">手机版</a>
+					<span>|</span>
+					<a href="#">手机版</a>
+					<span>|</span>
+					<a href="#">手机版</a>
+					<span>|</span>
+					<a href="#">手机版</a>
+					<span>|</span>
+					<a href="#">手机版</a>
+					<span>|</span>
+					<a href="#">手机版</a>
+					<span>|</span>
+					<a href="#">手机版</a>
+					<span>|</span>
+					<a href="#">手机版</a>
+				</p>
+				<br/>
+				<p>©2015 上海爱福窝云技术有限公司 版权所有 - 沪ICP备08102393号</p>
+			</div>
+		</div>
+	</div>
+	<!-- 页脚 end -->
+
+	<script src="js/jquery.js" charset="utf-8" ></script>
+	<script src="js/common.js" charset="utf-8" ></script>
+	<script src="js/areaData.js" charset="utf-8" ></script>
+	<script>
+	//获取城市
+	getArea( 'selectProv', 'selectCity' );
+	</script>
+	
+ </body>
+</html>
