@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>订单-首页</title>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="renderer" content="webkit"><!-- 浏览器默认使用高速模式 -->
+<meta content="" name="Keywords">
+<meta content="" name="description">
+<link rel="stylesheet" type="text/css" href="../static/vendor/weui/jquery-weui.min.css"/>
+<link rel="stylesheet" type="text/css" href="../static/css/raster.css"/>
+<link rel="stylesheet" type="text/css" href="../static/css/styles.css"/>
+</head>
+<body>
+
+	<div class="order-index">
+		<form action="../Pay/index.html">
+			<div class="filter">
+				<p>你已选择<em>初级</em>护理员</p>
+				<ul class="clfix tab">
+					<li class="tab-nav selected">
+						<span class="type">初级</span>
+						<p>¥<em>3680</em></p>
+					</li>
+					<li class="tab-nav">
+						<span class="type">中级</span>
+						<p>¥<em>3680</em></p>
+					</li>
+					<li class="tab-nav">
+						<span class="type">高级</span>
+						<p>¥<em>3680</em></p>
+					</li>
+				</ul>
+			</div>
+
+			<div class="service-time row">
+				<div class="xs-6">
+					<div class="title">服务时间</div>
+					<input id="datetimePicker" type="text" name="" class="datetime"  readonly="" placeholder="请选择开始时间" />
+				</div>
+				<div class="xs-6" id="changeNumber">
+					<div class="title">服务月数</div>
+					<span class="minus">-</span>
+					<input type="number" class="service-num" name="" value="1"/>
+					<span class="add">+</span>
+				</div>
+			</div>
+
+			<div class="item-aside">
+				<span class="type fl">护理类型</span>
+				<!-- <span class="aside">长期照护</span> -->
+				<input type="text" class="aside" name="" id="typePicker" placeholder="请选择护理类型">
+			</div>
+
+			<div class="item-aside addinfo">
+				<span class="type fl">点击添加被护理人信息</span>
+				<span class="right-arrow no-text"></span>
+				<a href="javascript:;" class="cover-link"></a>
+			</div>
+			<div class="item-aside">
+				<span class="type fl">联系人</span>
+				<input type="text" class="aside" placeholder="请填写联系人姓名">
+			</div>
+			<div class="item-aside">
+				<span class="type fl">联系电话</span>
+				<input type="text" class="aside" placeholder="请填写联系电话" value="15615545112">
+			</div>
+
+			<div class="description">
+				<textarea name="" id="" cols="30" placeholder="备注：补充说明" rows="5"></textarea>
+			</div>
+
+			<div class="item-aside buy">
+				<span class="type fl">实付款：<span>¥<em>3680</em></span></span>
+				<button type="submit">立即购买</button>
+			</div>
+		</form>
+	</div>
+
+	
+	<script type="text/javascript" src="../static/js/zepto.js"></script>
+	<script type="text/javascript" src="../static/vendor/weui/jquery-weui.min.js"></script>
+	<script>
+
+    //服务选择
+    $("#typePicker").picker({
+        title: "请选择服务类型",
+        cols: [
+          {
+            textAlign: 'center',
+            values: ['长期照护', '周周清洁', '老人照护']
+          }
+        ],
+        onChange: function(p, v, dv) {
+          console.log(p.input);
+        },
+        onClose: function(p, v, d) {
+          console.log("close");
+        }
+      });
+
+    // 时间选择
+    $("#datetimePicker").datetimePicker({
+        min: "2012-12-12",
+        max: "2022-12-12 12:12"
+      });
+
+    //增减数目
+    $('#changeNumber').on('click', function(e){
+    	var $this = $(e.target),
+    		$input = $(this).find('input'),
+    		val = $input.val();
+
+    	if( $this.is('.add') ){
+    		$input.val( ++val );
+    	}
+
+    	if( $this.is('.minus') ){
+    		$input.val( --val < 1 ? 1 : val );
+
+    	}
+    });
+
+    $('.tab .tab-nav').on('click', function(e){
+    	$(this).addClass('selected').siblings().removeClass('selected');
+    });
+	</script>
+</body>
+</html>
